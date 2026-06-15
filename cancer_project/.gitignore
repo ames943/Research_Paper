@@ -1,0 +1,34 @@
+# Kraken2 database files
+*.k2d
+*.kmer_distrib
+*.tar.gz
+
+# Raw sequencing data
+raw_data/
+
+# Generated intermediate outputs (large; reproducible from raw data)
+results/fastp/
+results/kraken_reports/
+results/microbiome_output.txt
+
+# Incomplete downloads
+*.aria2
+
+# Temporary files
+metadata/tmp_links/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
