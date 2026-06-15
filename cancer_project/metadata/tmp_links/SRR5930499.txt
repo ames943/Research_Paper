@@ -1,0 +1,2 @@
+https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR593/009/SRR5930499/SRR5930499_1.fastq.gz
+https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR593/009/SRR5930499/SRR5930499_2.fastq.gz

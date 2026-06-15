@@ -1,0 +1,612 @@
+2026-06-11 17:34:51  BATCH  [start]  manifest=metadata/download_manifest_SRR11413xxx.tsv  threads=11
+2026-06-11 17:34:51  SRR11413606  [progress]  1/40
+2026-06-11 17:34:51  SRR11413606  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/006/SRR11413606/SRR11413606_1.fastq.gz
+2026-06-11 17:38:14  SRR11413606  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/006/SRR11413606/SRR11413606_2.fastq.gz
+2026-06-11 17:43:06  SRR11413606  [download]  DONE
+2026-06-11 17:43:24  SRR11413606  [verify]  gzip OK
+2026-06-11 17:43:24  SRR11413606  [fastp]  START  fastp -i raw_data/SRR11413606_1.fastq.gz -I raw_data/SRR11413606_2.fastq.gz -o results/trimmed/SRR11413606_1.trimmed.fastq.gz -O results/trimmed/SRR11413606_2.trimmed.fastq.gz -h results/fastp/SRR11413606_fastp.html -j results/fastp/SRR11413606_fastp.json --thread 11
+2026-06-11 17:44:50  SRR11413606  [fastp]  OK (rc=0)
+2026-06-11 17:44:50  SRR11413606  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413606_report.txt --output results/kraken_outputs/SRR11413606_output.txt results/trimmed/SRR11413606_1.trimmed.fastq.gz results/trimmed/SRR11413606_2.trimmed.fastq.gz
+2026-06-11 17:56:02  SRR11413606  [kraken2]  OK (rc=0)
+2026-06-11 17:56:02  SRR11413606  [done]  sample complete, files cleaned
+2026-06-11 17:56:02  SRR11413607  [progress]  2/40
+2026-06-11 17:56:02  SRR11413607  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/007/SRR11413607/SRR11413607_1.fastq.gz
+2026-06-11 18:01:54  SRR11413607  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/007/SRR11413607/SRR11413607_2.fastq.gz
+2026-06-11 18:08:03  SRR11413607  [download]  DONE
+2026-06-11 18:08:20  SRR11413607  [verify]  R2 corrupt, re-downloading
+2026-06-11 18:15:01  SRR11413607  [verify]  R2 corrupt after retry, skipping sample
+2026-06-11 18:15:01  SRR11413608  [progress]  3/40
+2026-06-11 18:15:01  SRR11413608  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/008/SRR11413608/SRR11413608_1.fastq.gz
+2026-06-11 18:20:42  SRR11413608  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/008/SRR11413608/SRR11413608_2.fastq.gz
+2026-06-11 18:26:55  SRR11413608  [download]  DONE
+2026-06-11 18:27:04  SRR11413608  [verify]  R1 corrupt, re-downloading
+2026-06-11 18:32:38  SRR11413608  [verify]  R1 corrupt after retry, skipping sample
+2026-06-11 18:32:38  SRR11413609  [progress]  4/40
+2026-06-11 18:32:38  SRR11413609  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/009/SRR11413609/SRR11413609_1.fastq.gz
+2026-06-11 18:34:02  SRR11413609  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/009/SRR11413609/SRR11413609_2.fastq.gz
+2026-06-11 18:36:17  SRR11413609  [download]  DONE
+2026-06-11 18:36:29  SRR11413609  [verify]  gzip OK
+2026-06-11 18:36:29  SRR11413609  [fastp]  START  fastp -i raw_data/SRR11413609_1.fastq.gz -I raw_data/SRR11413609_2.fastq.gz -o results/trimmed/SRR11413609_1.trimmed.fastq.gz -O results/trimmed/SRR11413609_2.trimmed.fastq.gz -h results/fastp/SRR11413609_fastp.html -j results/fastp/SRR11413609_fastp.json --thread 11
+2026-06-11 18:37:32  SRR11413609  [fastp]  OK (rc=0)
+2026-06-11 18:37:32  SRR11413609  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413609_report.txt --output results/kraken_outputs/SRR11413609_output.txt results/trimmed/SRR11413609_1.trimmed.fastq.gz results/trimmed/SRR11413609_2.trimmed.fastq.gz
+2026-06-11 18:44:00  SRR11413609  [kraken2]  OK (rc=0)
+2026-06-11 18:44:00  SRR11413609  [done]  sample complete, files cleaned
+2026-06-11 18:44:00  SRR11413610  [progress]  5/40
+2026-06-11 18:44:00  SRR11413610  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/010/SRR11413610/SRR11413610_1.fastq.gz
+2026-06-11 18:45:47  SRR11413610  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/010/SRR11413610/SRR11413610_2.fastq.gz
+2026-06-11 18:47:53  SRR11413610  [download]  DONE
+2026-06-11 18:48:07  SRR11413610  [verify]  gzip OK
+2026-06-11 18:48:07  SRR11413610  [fastp]  START  fastp -i raw_data/SRR11413610_1.fastq.gz -I raw_data/SRR11413610_2.fastq.gz -o results/trimmed/SRR11413610_1.trimmed.fastq.gz -O results/trimmed/SRR11413610_2.trimmed.fastq.gz -h results/fastp/SRR11413610_fastp.html -j results/fastp/SRR11413610_fastp.json --thread 11
+2026-06-11 18:49:19  SRR11413610  [fastp]  OK (rc=0)
+2026-06-11 18:49:19  SRR11413610  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413610_report.txt --output results/kraken_outputs/SRR11413610_output.txt results/trimmed/SRR11413610_1.trimmed.fastq.gz results/trimmed/SRR11413610_2.trimmed.fastq.gz
+2026-06-11 18:57:35  SRR11413610  [kraken2]  OK (rc=0)
+2026-06-11 18:57:35  SRR11413610  [done]  sample complete, files cleaned
+2026-06-11 18:57:35  SRR11413611  [progress]  6/40
+2026-06-11 18:57:35  SRR11413611  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/011/SRR11413611/SRR11413611_1.fastq.gz
+2026-06-11 18:59:45  SRR11413611  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/011/SRR11413611/SRR11413611_2.fastq.gz
+2026-06-11 19:02:33  SRR11413611  [download]  DONE
+2026-06-11 19:02:49  SRR11413611  [verify]  gzip OK
+2026-06-11 19:02:49  SRR11413611  [fastp]  START  fastp -i raw_data/SRR11413611_1.fastq.gz -I raw_data/SRR11413611_2.fastq.gz -o results/trimmed/SRR11413611_1.trimmed.fastq.gz -O results/trimmed/SRR11413611_2.trimmed.fastq.gz -h results/fastp/SRR11413611_fastp.html -j results/fastp/SRR11413611_fastp.json --thread 11
+2026-06-11 19:04:14  SRR11413611  [fastp]  OK (rc=0)
+2026-06-11 19:04:14  SRR11413611  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413611_report.txt --output results/kraken_outputs/SRR11413611_output.txt results/trimmed/SRR11413611_1.trimmed.fastq.gz results/trimmed/SRR11413611_2.trimmed.fastq.gz
+2026-06-11 19:12:01  SRR11413611  [kraken2]  OK (rc=0)
+2026-06-11 19:12:02  SRR11413611  [done]  sample complete, files cleaned
+2026-06-11 19:12:02  SRR11413612  [progress]  7/40
+2026-06-11 19:12:02  SRR11413612  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/012/SRR11413612/SRR11413612_1.fastq.gz
+2026-06-11 19:13:49  SRR11413612  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/012/SRR11413612/SRR11413612_2.fastq.gz
+2026-06-11 19:15:58  SRR11413612  [download]  DONE
+2026-06-11 19:16:13  SRR11413612  [verify]  gzip OK
+2026-06-11 19:16:13  SRR11413612  [fastp]  START  fastp -i raw_data/SRR11413612_1.fastq.gz -I raw_data/SRR11413612_2.fastq.gz -o results/trimmed/SRR11413612_1.trimmed.fastq.gz -O results/trimmed/SRR11413612_2.trimmed.fastq.gz -h results/fastp/SRR11413612_fastp.html -j results/fastp/SRR11413612_fastp.json --thread 11
+2026-06-11 19:17:30  SRR11413612  [fastp]  OK (rc=0)
+2026-06-11 19:17:30  SRR11413612  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413612_report.txt --output results/kraken_outputs/SRR11413612_output.txt results/trimmed/SRR11413612_1.trimmed.fastq.gz results/trimmed/SRR11413612_2.trimmed.fastq.gz
+2026-06-11 19:27:32  SRR11413612  [kraken2]  OK (rc=0)
+2026-06-11 19:27:33  SRR11413612  [done]  sample complete, files cleaned
+2026-06-11 19:27:33  SRR11413613  [progress]  8/40
+2026-06-11 19:27:33  SRR11413613  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/013/SRR11413613/SRR11413613_1.fastq.gz
+2026-06-11 19:29:24  SRR11413613  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/013/SRR11413613/SRR11413613_2.fastq.gz
+2026-06-11 19:31:29  SRR11413613  [download]  DONE
+2026-06-11 19:31:44  SRR11413613  [verify]  gzip OK
+2026-06-11 19:31:44  SRR11413613  [fastp]  START  fastp -i raw_data/SRR11413613_1.fastq.gz -I raw_data/SRR11413613_2.fastq.gz -o results/trimmed/SRR11413613_1.trimmed.fastq.gz -O results/trimmed/SRR11413613_2.trimmed.fastq.gz -h results/fastp/SRR11413613_fastp.html -j results/fastp/SRR11413613_fastp.json --thread 11
+2026-06-11 19:33:05  SRR11413613  [fastp]  OK (rc=0)
+2026-06-11 19:33:05  SRR11413613  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413613_report.txt --output results/kraken_outputs/SRR11413613_output.txt results/trimmed/SRR11413613_1.trimmed.fastq.gz results/trimmed/SRR11413613_2.trimmed.fastq.gz
+2026-06-11 19:42:20  SRR11413613  [kraken2]  OK (rc=0)
+2026-06-11 19:42:21  SRR11413613  [done]  sample complete, files cleaned
+2026-06-11 19:42:21  SRR11413614  [progress]  9/40
+2026-06-11 19:42:21  SRR11413614  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/014/SRR11413614/SRR11413614_1.fastq.gz
+2026-06-11 19:44:23  SRR11413614  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/014/SRR11413614/SRR11413614_2.fastq.gz
+2026-06-11 19:46:30  SRR11413614  [download]  DONE
+2026-06-11 19:46:47  SRR11413614  [verify]  gzip OK
+2026-06-11 19:46:47  SRR11413614  [fastp]  START  fastp -i raw_data/SRR11413614_1.fastq.gz -I raw_data/SRR11413614_2.fastq.gz -o results/trimmed/SRR11413614_1.trimmed.fastq.gz -O results/trimmed/SRR11413614_2.trimmed.fastq.gz -h results/fastp/SRR11413614_fastp.html -j results/fastp/SRR11413614_fastp.json --thread 11
+2026-06-11 19:48:17  SRR11413614  [fastp]  OK (rc=0)
+2026-06-11 19:48:17  SRR11413614  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413614_report.txt --output results/kraken_outputs/SRR11413614_output.txt results/trimmed/SRR11413614_1.trimmed.fastq.gz results/trimmed/SRR11413614_2.trimmed.fastq.gz
+2026-06-11 19:58:00  SRR11413614  [kraken2]  OK (rc=0)
+2026-06-11 19:58:01  SRR11413614  [done]  sample complete, files cleaned
+2026-06-11 19:58:01  SRR11413615  [progress]  10/40
+2026-06-11 19:58:01  SRR11413615  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/015/SRR11413615/SRR11413615_1.fastq.gz
+2026-06-11 19:59:52  SRR11413615  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/015/SRR11413615/SRR11413615_2.fastq.gz
+2026-06-11 20:01:46  SRR11413615  [download]  DONE
+2026-06-11 20:01:53  SRR11413615  [verify]  R1 corrupt, re-downloading
+2026-06-11 20:04:01  SRR11413615  [verify]  R1 corrupt after retry, skipping sample
+2026-06-11 20:04:01  SRR11413617  [progress]  11/40
+2026-06-11 20:04:01  SRR11413617  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/017/SRR11413617/SRR11413617_1.fastq.gz
+2026-06-11 20:05:55  SRR11413617  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/017/SRR11413617/SRR11413617_2.fastq.gz
+2026-06-11 20:08:11  SRR11413617  [download]  DONE
+2026-06-11 20:08:28  SRR11413617  [verify]  gzip OK
+2026-06-11 20:08:28  SRR11413617  [fastp]  START  fastp -i raw_data/SRR11413617_1.fastq.gz -I raw_data/SRR11413617_2.fastq.gz -o results/trimmed/SRR11413617_1.trimmed.fastq.gz -O results/trimmed/SRR11413617_2.trimmed.fastq.gz -h results/fastp/SRR11413617_fastp.html -j results/fastp/SRR11413617_fastp.json --thread 11
+2026-06-11 20:10:00  SRR11413617  [fastp]  OK (rc=0)
+2026-06-11 20:10:00  SRR11413617  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413617_report.txt --output results/kraken_outputs/SRR11413617_output.txt results/trimmed/SRR11413617_1.trimmed.fastq.gz results/trimmed/SRR11413617_2.trimmed.fastq.gz
+2026-06-11 20:19:26  SRR11413617  [kraken2]  OK (rc=0)
+2026-06-11 20:19:27  SRR11413617  [done]  sample complete, files cleaned
+2026-06-11 20:19:27  SRR11413618  [progress]  12/40
+2026-06-11 20:19:27  SRR11413618  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/018/SRR11413618/SRR11413618_1.fastq.gz
+2026-06-11 20:22:00  SRR11413618  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/018/SRR11413618/SRR11413618_2.fastq.gz
+2026-06-11 20:24:23  SRR11413618  [download]  DONE
+2026-06-11 20:24:43  SRR11413618  [verify]  gzip OK
+2026-06-11 20:24:43  SRR11413618  [fastp]  START  fastp -i raw_data/SRR11413618_1.fastq.gz -I raw_data/SRR11413618_2.fastq.gz -o results/trimmed/SRR11413618_1.trimmed.fastq.gz -O results/trimmed/SRR11413618_2.trimmed.fastq.gz -h results/fastp/SRR11413618_fastp.html -j results/fastp/SRR11413618_fastp.json --thread 11
+2026-06-11 20:26:31  SRR11413618  [fastp]  OK (rc=0)
+2026-06-11 20:26:31  SRR11413618  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413618_report.txt --output results/kraken_outputs/SRR11413618_output.txt results/trimmed/SRR11413618_1.trimmed.fastq.gz results/trimmed/SRR11413618_2.trimmed.fastq.gz
+2026-06-11 20:43:20  SRR11413618  [kraken2]  OK (rc=0)
+2026-06-11 20:43:20  SRR11413618  [done]  sample complete, files cleaned
+2026-06-11 20:43:20  SRR11413619  [progress]  13/40
+2026-06-11 20:43:20  SRR11413619  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/019/SRR11413619/SRR11413619_1.fastq.gz
+2026-06-11 20:45:19  SRR11413619  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/019/SRR11413619/SRR11413619_2.fastq.gz
+2026-06-11 20:47:45  SRR11413619  [download]  DONE
+2026-06-11 20:48:02  SRR11413619  [verify]  gzip OK
+2026-06-11 20:48:02  SRR11413619  [fastp]  START  fastp -i raw_data/SRR11413619_1.fastq.gz -I raw_data/SRR11413619_2.fastq.gz -o results/trimmed/SRR11413619_1.trimmed.fastq.gz -O results/trimmed/SRR11413619_2.trimmed.fastq.gz -h results/fastp/SRR11413619_fastp.html -j results/fastp/SRR11413619_fastp.json --thread 11
+2026-06-11 20:49:35  SRR11413619  [fastp]  OK (rc=0)
+2026-06-11 20:49:35  SRR11413619  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413619_report.txt --output results/kraken_outputs/SRR11413619_output.txt results/trimmed/SRR11413619_1.trimmed.fastq.gz results/trimmed/SRR11413619_2.trimmed.fastq.gz
+2026-06-11 21:00:14  SRR11413619  [kraken2]  OK (rc=0)
+2026-06-11 21:00:14  SRR11413619  [done]  sample complete, files cleaned
+2026-06-11 21:00:14  SRR11413620  [progress]  14/40
+2026-06-11 21:00:14  SRR11413620  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/020/SRR11413620/SRR11413620_1.fastq.gz
+2026-06-11 21:01:58  SRR11413620  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/020/SRR11413620/SRR11413620_2.fastq.gz
+2026-06-11 21:04:22  SRR11413620  [download]  DONE
+2026-06-11 21:04:38  SRR11413620  [verify]  gzip OK
+2026-06-11 21:04:38  SRR11413620  [fastp]  START  fastp -i raw_data/SRR11413620_1.fastq.gz -I raw_data/SRR11413620_2.fastq.gz -o results/trimmed/SRR11413620_1.trimmed.fastq.gz -O results/trimmed/SRR11413620_2.trimmed.fastq.gz -h results/fastp/SRR11413620_fastp.html -j results/fastp/SRR11413620_fastp.json --thread 11
+2026-06-11 21:06:00  SRR11413620  [fastp]  OK (rc=0)
+2026-06-11 21:06:00  SRR11413620  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413620_report.txt --output results/kraken_outputs/SRR11413620_output.txt results/trimmed/SRR11413620_1.trimmed.fastq.gz results/trimmed/SRR11413620_2.trimmed.fastq.gz
+2026-06-11 21:15:25  SRR11413620  [kraken2]  OK (rc=0)
+2026-06-11 21:15:26  SRR11413620  [done]  sample complete, files cleaned
+2026-06-11 21:15:26  SRR11413645  [progress]  15/40
+2026-06-11 21:15:26  SRR11413645  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/045/SRR11413645/SRR11413645_1.fastq.gz
+2026-06-11 21:17:21  SRR11413645  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/045/SRR11413645/SRR11413645_2.fastq.gz
+2026-06-11 21:21:16  SRR11413645  [download]  DONE
+2026-06-11 21:21:24  SRR11413645  [verify]  R1 corrupt, re-downloading
+2026-06-11 21:23:45  SRR11413645  [verify]  gzip OK
+2026-06-11 21:23:45  SRR11413645  [fastp]  START  fastp -i raw_data/SRR11413645_1.fastq.gz -I raw_data/SRR11413645_2.fastq.gz -o results/trimmed/SRR11413645_1.trimmed.fastq.gz -O results/trimmed/SRR11413645_2.trimmed.fastq.gz -h results/fastp/SRR11413645_fastp.html -j results/fastp/SRR11413645_fastp.json --thread 11
+2026-06-11 21:25:08  SRR11413645  [fastp]  OK (rc=0)
+2026-06-11 21:25:08  SRR11413645  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413645_report.txt --output results/kraken_outputs/SRR11413645_output.txt results/trimmed/SRR11413645_1.trimmed.fastq.gz results/trimmed/SRR11413645_2.trimmed.fastq.gz
+2026-06-11 21:34:47  SRR11413645  [kraken2]  OK (rc=0)
+2026-06-11 21:34:48  SRR11413645  [done]  sample complete, files cleaned
+2026-06-11 21:34:48  SRR11413646  [progress]  16/40
+2026-06-11 21:34:48  SRR11413646  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/046/SRR11413646/SRR11413646_1.fastq.gz
+2026-06-11 21:37:32  SRR11413646  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/046/SRR11413646/SRR11413646_2.fastq.gz
+2026-06-11 21:39:50  SRR11413646  [download]  DONE
+2026-06-11 21:40:06  SRR11413646  [verify]  gzip OK
+2026-06-11 21:40:06  SRR11413646  [fastp]  START  fastp -i raw_data/SRR11413646_1.fastq.gz -I raw_data/SRR11413646_2.fastq.gz -o results/trimmed/SRR11413646_1.trimmed.fastq.gz -O results/trimmed/SRR11413646_2.trimmed.fastq.gz -h results/fastp/SRR11413646_fastp.html -j results/fastp/SRR11413646_fastp.json --thread 11
+2026-06-11 21:41:27  SRR11413646  [fastp]  OK (rc=0)
+2026-06-11 21:41:27  SRR11413646  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413646_report.txt --output results/kraken_outputs/SRR11413646_output.txt results/trimmed/SRR11413646_1.trimmed.fastq.gz results/trimmed/SRR11413646_2.trimmed.fastq.gz
+2026-06-11 21:50:14  SRR11413646  [kraken2]  OK (rc=0)
+2026-06-11 21:50:14  SRR11413646  [done]  sample complete, files cleaned
+2026-06-11 21:50:14  SRR11413647  [progress]  17/40
+2026-06-11 21:50:14  SRR11413647  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/047/SRR11413647/SRR11413647_1.fastq.gz
+2026-06-11 21:52:37  SRR11413647  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/047/SRR11413647/SRR11413647_2.fastq.gz
+2026-06-11 21:55:05  SRR11413647  [download]  DONE
+2026-06-11 21:55:22  SRR11413647  [verify]  gzip OK
+2026-06-11 21:55:22  SRR11413647  [fastp]  START  fastp -i raw_data/SRR11413647_1.fastq.gz -I raw_data/SRR11413647_2.fastq.gz -o results/trimmed/SRR11413647_1.trimmed.fastq.gz -O results/trimmed/SRR11413647_2.trimmed.fastq.gz -h results/fastp/SRR11413647_fastp.html -j results/fastp/SRR11413647_fastp.json --thread 11
+2026-06-11 21:56:54  SRR11413647  [fastp]  OK (rc=0)
+2026-06-11 21:56:54  SRR11413647  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413647_report.txt --output results/kraken_outputs/SRR11413647_output.txt results/trimmed/SRR11413647_1.trimmed.fastq.gz results/trimmed/SRR11413647_2.trimmed.fastq.gz
+2026-06-11 22:06:44  SRR11413647  [kraken2]  OK (rc=0)
+2026-06-11 22:06:44  SRR11413647  [done]  sample complete, files cleaned
+2026-06-11 22:06:44  SRR11413648  [progress]  18/40
+2026-06-11 22:06:44  SRR11413648  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/048/SRR11413648/SRR11413648_1.fastq.gz
+2026-06-11 22:08:59  SRR11413648  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/048/SRR11413648/SRR11413648_2.fastq.gz
+2026-06-11 22:11:25  SRR11413648  [download]  DONE
+2026-06-11 22:11:43  SRR11413648  [verify]  gzip OK
+2026-06-11 22:11:43  SRR11413648  [fastp]  START  fastp -i raw_data/SRR11413648_1.fastq.gz -I raw_data/SRR11413648_2.fastq.gz -o results/trimmed/SRR11413648_1.trimmed.fastq.gz -O results/trimmed/SRR11413648_2.trimmed.fastq.gz -h results/fastp/SRR11413648_fastp.html -j results/fastp/SRR11413648_fastp.json --thread 11
+2026-06-11 22:13:17  SRR11413648  [fastp]  OK (rc=0)
+2026-06-11 22:13:17  SRR11413648  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413648_report.txt --output results/kraken_outputs/SRR11413648_output.txt results/trimmed/SRR11413648_1.trimmed.fastq.gz results/trimmed/SRR11413648_2.trimmed.fastq.gz
+2026-06-11 22:24:34  SRR11413648  [kraken2]  OK (rc=0)
+2026-06-11 22:24:35  SRR11413648  [done]  sample complete, files cleaned
+2026-06-11 22:24:35  SRR11413649  [progress]  19/40
+2026-06-11 22:24:35  SRR11413649  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/049/SRR11413649/SRR11413649_1.fastq.gz
+2026-06-11 22:26:56  SRR11413649  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/049/SRR11413649/SRR11413649_2.fastq.gz
+2026-06-11 22:29:27  SRR11413649  [download]  DONE
+2026-06-11 22:29:47  SRR11413649  [verify]  R2 corrupt, re-downloading
+2026-06-11 22:33:51  SRR11413649  [verify]  gzip OK
+2026-06-11 22:33:51  SRR11413649  [fastp]  START  fastp -i raw_data/SRR11413649_1.fastq.gz -I raw_data/SRR11413649_2.fastq.gz -o results/trimmed/SRR11413649_1.trimmed.fastq.gz -O results/trimmed/SRR11413649_2.trimmed.fastq.gz -h results/fastp/SRR11413649_fastp.html -j results/fastp/SRR11413649_fastp.json --thread 11
+2026-06-11 22:35:30  SRR11413649  [fastp]  OK (rc=0)
+2026-06-11 22:35:30  SRR11413649  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413649_report.txt --output results/kraken_outputs/SRR11413649_output.txt results/trimmed/SRR11413649_1.trimmed.fastq.gz results/trimmed/SRR11413649_2.trimmed.fastq.gz
+2026-06-11 22:47:45  SRR11413649  [kraken2]  OK (rc=0)
+2026-06-11 22:47:46  SRR11413649  [done]  sample complete, files cleaned
+2026-06-11 22:47:46  SRR11413650  [progress]  20/40
+2026-06-11 22:47:46  SRR11413650  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/050/SRR11413650/SRR11413650_1.fastq.gz
+2026-06-11 22:49:45  SRR11413650  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/050/SRR11413650/SRR11413650_2.fastq.gz
+2026-06-11 22:52:08  SRR11413650  [download]  DONE
+2026-06-11 22:52:17  SRR11413650  [verify]  R1 corrupt, re-downloading
+2026-06-11 22:55:43  SRR11413650  [verify]  R1 corrupt after retry, skipping sample
+2026-06-11 22:55:43  SRR11413652  [progress]  21/40
+2026-06-11 22:55:43  SRR11413652  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/052/SRR11413652/SRR11413652_1.fastq.gz
+2026-06-11 22:58:01  SRR11413652  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/052/SRR11413652/SRR11413652_2.fastq.gz
+2026-06-11 23:00:28  SRR11413652  [download]  DONE
+2026-06-11 23:00:47  SRR11413652  [verify]  gzip OK
+2026-06-11 23:00:47  SRR11413652  [fastp]  START  fastp -i raw_data/SRR11413652_1.fastq.gz -I raw_data/SRR11413652_2.fastq.gz -o results/trimmed/SRR11413652_1.trimmed.fastq.gz -O results/trimmed/SRR11413652_2.trimmed.fastq.gz -h results/fastp/SRR11413652_fastp.html -j results/fastp/SRR11413652_fastp.json --thread 11
+2026-06-11 23:02:26  SRR11413652  [fastp]  OK (rc=0)
+2026-06-11 23:02:26  SRR11413652  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413652_report.txt --output results/kraken_outputs/SRR11413652_output.txt results/trimmed/SRR11413652_1.trimmed.fastq.gz results/trimmed/SRR11413652_2.trimmed.fastq.gz
+2026-06-11 23:12:59  SRR11413652  [kraken2]  OK (rc=0)
+2026-06-11 23:13:00  SRR11413652  [done]  sample complete, files cleaned
+2026-06-11 23:13:00  SRR11413653  [progress]  22/40
+2026-06-11 23:13:00  SRR11413653  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/053/SRR11413653/SRR11413653_1.fastq.gz
+2026-06-11 23:14:55  SRR11413653  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/053/SRR11413653/SRR11413653_2.fastq.gz
+2026-06-11 23:17:04  SRR11413653  [download]  DONE
+2026-06-11 23:17:12  SRR11413653  [verify]  R1 corrupt, re-downloading
+2026-06-11 23:19:37  SRR11413653  [verify]  gzip OK
+2026-06-11 23:19:37  SRR11413653  [fastp]  START  fastp -i raw_data/SRR11413653_1.fastq.gz -I raw_data/SRR11413653_2.fastq.gz -o results/trimmed/SRR11413653_1.trimmed.fastq.gz -O results/trimmed/SRR11413653_2.trimmed.fastq.gz -h results/fastp/SRR11413653_fastp.html -j results/fastp/SRR11413653_fastp.json --thread 11
+2026-06-11 23:20:56  SRR11413653  [fastp]  OK (rc=0)
+2026-06-11 23:20:56  SRR11413653  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413653_report.txt --output results/kraken_outputs/SRR11413653_output.txt results/trimmed/SRR11413653_1.trimmed.fastq.gz results/trimmed/SRR11413653_2.trimmed.fastq.gz
+2026-06-11 23:29:13  SRR11413653  [kraken2]  OK (rc=0)
+2026-06-11 23:29:14  SRR11413653  [done]  sample complete, files cleaned
+2026-06-11 23:29:14  SRR11413654  [progress]  23/40
+2026-06-11 23:29:14  SRR11413654  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/054/SRR11413654/SRR11413654_1.fastq.gz
+2026-06-11 23:31:09  SRR11413654  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/054/SRR11413654/SRR11413654_2.fastq.gz
+2026-06-11 23:33:14  SRR11413654  [download]  DONE
+2026-06-11 23:33:30  SRR11413654  [verify]  gzip OK
+2026-06-11 23:33:30  SRR11413654  [fastp]  START  fastp -i raw_data/SRR11413654_1.fastq.gz -I raw_data/SRR11413654_2.fastq.gz -o results/trimmed/SRR11413654_1.trimmed.fastq.gz -O results/trimmed/SRR11413654_2.trimmed.fastq.gz -h results/fastp/SRR11413654_fastp.html -j results/fastp/SRR11413654_fastp.json --thread 11
+2026-06-11 23:34:55  SRR11413654  [fastp]  OK (rc=0)
+2026-06-11 23:34:55  SRR11413654  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413654_report.txt --output results/kraken_outputs/SRR11413654_output.txt results/trimmed/SRR11413654_1.trimmed.fastq.gz results/trimmed/SRR11413654_2.trimmed.fastq.gz
+2026-06-11 23:44:22  SRR11413654  [kraken2]  OK (rc=0)
+2026-06-11 23:44:22  SRR11413654  [done]  sample complete, files cleaned
+2026-06-11 23:44:22  SRR11413655  [progress]  24/40
+2026-06-11 23:44:22  SRR11413655  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/055/SRR11413655/SRR11413655_1.fastq.gz
+2026-06-11 23:46:35  SRR11413655  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/055/SRR11413655/SRR11413655_2.fastq.gz
+2026-06-11 23:48:51  SRR11413655  [download]  DONE
+2026-06-11 23:48:59  SRR11413655  [verify]  R1 corrupt, re-downloading
+2026-06-11 23:51:50  SRR11413655  [verify]  R1 corrupt after retry, skipping sample
+2026-06-11 23:51:50  SRR11413656  [progress]  25/40
+2026-06-11 23:51:50  SRR11413656  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/056/SRR11413656/SRR11413656_1.fastq.gz
+2026-06-11 23:53:50  SRR11413656  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/056/SRR11413656/SRR11413656_2.fastq.gz
+2026-06-11 23:55:57  SRR11413656  [download]  DONE
+2026-06-11 23:56:13  SRR11413656  [verify]  gzip OK
+2026-06-11 23:56:13  SRR11413656  [fastp]  START  fastp -i raw_data/SRR11413656_1.fastq.gz -I raw_data/SRR11413656_2.fastq.gz -o results/trimmed/SRR11413656_1.trimmed.fastq.gz -O results/trimmed/SRR11413656_2.trimmed.fastq.gz -h results/fastp/SRR11413656_fastp.html -j results/fastp/SRR11413656_fastp.json --thread 11
+2026-06-11 23:57:36  SRR11413656  [fastp]  OK (rc=0)
+2026-06-11 23:57:36  SRR11413656  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413656_report.txt --output results/kraken_outputs/SRR11413656_output.txt results/trimmed/SRR11413656_1.trimmed.fastq.gz results/trimmed/SRR11413656_2.trimmed.fastq.gz
+2026-06-12 00:04:21  SRR11413656  [kraken2]  OK (rc=0)
+2026-06-12 00:04:22  SRR11413656  [done]  sample complete, files cleaned
+2026-06-12 00:04:22  SRR11413657  [progress]  26/40
+2026-06-12 00:04:22  SRR11413657  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/057/SRR11413657/SRR11413657_1.fastq.gz
+2026-06-12 00:06:55  SRR11413657  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/057/SRR11413657/SRR11413657_2.fastq.gz
+2026-06-12 00:09:03  SRR11413657  [download]  DONE
+2026-06-12 00:09:19  SRR11413657  [verify]  gzip OK
+2026-06-12 00:09:19  SRR11413657  [fastp]  START  fastp -i raw_data/SRR11413657_1.fastq.gz -I raw_data/SRR11413657_2.fastq.gz -o results/trimmed/SRR11413657_1.trimmed.fastq.gz -O results/trimmed/SRR11413657_2.trimmed.fastq.gz -h results/fastp/SRR11413657_fastp.html -j results/fastp/SRR11413657_fastp.json --thread 11
+2026-06-12 00:10:44  SRR11413657  [fastp]  OK (rc=0)
+2026-06-12 00:10:44  SRR11413657  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413657_report.txt --output results/kraken_outputs/SRR11413657_output.txt results/trimmed/SRR11413657_1.trimmed.fastq.gz results/trimmed/SRR11413657_2.trimmed.fastq.gz
+2026-06-12 00:17:11  SRR11413657  [kraken2]  OK (rc=0)
+2026-06-12 00:17:11  SRR11413657  [done]  sample complete, files cleaned
+2026-06-12 00:17:11  SRR11413678  [progress]  27/40
+2026-06-12 00:17:11  SRR11413678  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/078/SRR11413678/SRR11413678_1.fastq.gz
+2026-06-12 00:19:46  SRR11413678  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/078/SRR11413678/SRR11413678_2.fastq.gz
+2026-06-12 00:24:10  SRR11413678  [download]  DONE
+2026-06-12 00:24:20  SRR11413678  [verify]  R1 corrupt, re-downloading
+2026-06-12 00:27:02  SRR11413678  [verify]  gzip OK
+2026-06-12 00:27:02  SRR11413678  [fastp]  START  fastp -i raw_data/SRR11413678_1.fastq.gz -I raw_data/SRR11413678_2.fastq.gz -o results/trimmed/SRR11413678_1.trimmed.fastq.gz -O results/trimmed/SRR11413678_2.trimmed.fastq.gz -h results/fastp/SRR11413678_fastp.html -j results/fastp/SRR11413678_fastp.json --thread 11
+2026-06-12 00:28:49  SRR11413678  [fastp]  OK (rc=0)
+2026-06-12 00:28:50  SRR11413678  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413678_report.txt --output results/kraken_outputs/SRR11413678_output.txt results/trimmed/SRR11413678_1.trimmed.fastq.gz results/trimmed/SRR11413678_2.trimmed.fastq.gz
+2026-06-12 00:39:19  SRR11413678  [kraken2]  OK (rc=0)
+2026-06-12 00:39:19  SRR11413678  [done]  sample complete, files cleaned
+2026-06-12 00:39:19  SRR11413679  [progress]  28/40
+2026-06-12 00:39:19  SRR11413679  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/079/SRR11413679/SRR11413679_1.fastq.gz
+2026-06-12 00:41:11  SRR11413679  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/079/SRR11413679/SRR11413679_2.fastq.gz
+2026-06-12 00:43:12  SRR11413679  [download]  DONE
+2026-06-12 00:43:20  SRR11413679  [verify]  R1 corrupt, re-downloading
+2026-06-12 00:45:21  SRR11413679  [verify]  R1 corrupt after retry, skipping sample
+2026-06-12 00:45:21  SRR11413680  [progress]  29/40
+2026-06-12 00:45:21  SRR11413680  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/080/SRR11413680/SRR11413680_1.fastq.gz
+2026-06-12 00:47:12  SRR11413680  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/080/SRR11413680/SRR11413680_2.fastq.gz
+2026-06-12 00:49:34  SRR11413680  [download]  DONE
+2026-06-12 00:49:49  SRR11413680  [verify]  gzip OK
+2026-06-12 00:49:49  SRR11413680  [fastp]  START  fastp -i raw_data/SRR11413680_1.fastq.gz -I raw_data/SRR11413680_2.fastq.gz -o results/trimmed/SRR11413680_1.trimmed.fastq.gz -O results/trimmed/SRR11413680_2.trimmed.fastq.gz -h results/fastp/SRR11413680_fastp.html -j results/fastp/SRR11413680_fastp.json --thread 11
+2026-06-12 00:51:10  SRR11413680  [fastp]  OK (rc=0)
+2026-06-12 00:51:11  SRR11413680  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413680_report.txt --output results/kraken_outputs/SRR11413680_output.txt results/trimmed/SRR11413680_1.trimmed.fastq.gz results/trimmed/SRR11413680_2.trimmed.fastq.gz
+2026-06-12 00:57:34  SRR11413680  [kraken2]  OK (rc=0)
+2026-06-12 00:57:34  SRR11413680  [done]  sample complete, files cleaned
+2026-06-12 00:57:34  SRR11413681  [progress]  30/40
+2026-06-12 00:57:34  SRR11413681  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/081/SRR11413681/SRR11413681_1.fastq.gz
+2026-06-12 00:59:47  SRR11413681  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/081/SRR11413681/SRR11413681_2.fastq.gz
+2026-06-12 01:01:44  SRR11413681  [download]  DONE
+2026-06-12 01:02:00  SRR11413681  [verify]  gzip OK
+2026-06-12 01:02:00  SRR11413681  [fastp]  START  fastp -i raw_data/SRR11413681_1.fastq.gz -I raw_data/SRR11413681_2.fastq.gz -o results/trimmed/SRR11413681_1.trimmed.fastq.gz -O results/trimmed/SRR11413681_2.trimmed.fastq.gz -h results/fastp/SRR11413681_fastp.html -j results/fastp/SRR11413681_fastp.json --thread 11
+2026-06-12 01:03:24  SRR11413681  [fastp]  OK (rc=0)
+2026-06-12 01:03:25  SRR11413681  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413681_report.txt --output results/kraken_outputs/SRR11413681_output.txt results/trimmed/SRR11413681_1.trimmed.fastq.gz results/trimmed/SRR11413681_2.trimmed.fastq.gz
+2026-06-12 01:10:50  SRR11413681  [kraken2]  OK (rc=0)
+2026-06-12 01:10:50  SRR11413681  [done]  sample complete, files cleaned
+2026-06-12 01:10:50  SRR11413683  [progress]  31/40
+2026-06-12 01:10:50  SRR11413683  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/083/SRR11413683/SRR11413683_1.fastq.gz
+2026-06-12 01:12:54  SRR11413683  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/083/SRR11413683/SRR11413683_2.fastq.gz
+2026-06-12 01:15:13  SRR11413683  [download]  DONE
+2026-06-12 01:15:30  SRR11413683  [verify]  gzip OK
+2026-06-12 01:15:30  SRR11413683  [fastp]  START  fastp -i raw_data/SRR11413683_1.fastq.gz -I raw_data/SRR11413683_2.fastq.gz -o results/trimmed/SRR11413683_1.trimmed.fastq.gz -O results/trimmed/SRR11413683_2.trimmed.fastq.gz -h results/fastp/SRR11413683_fastp.html -j results/fastp/SRR11413683_fastp.json --thread 11
+2026-06-12 01:16:59  SRR11413683  [fastp]  OK (rc=0)
+2026-06-12 01:16:59  SRR11413683  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413683_report.txt --output results/kraken_outputs/SRR11413683_output.txt results/trimmed/SRR11413683_1.trimmed.fastq.gz results/trimmed/SRR11413683_2.trimmed.fastq.gz
+2026-06-12 01:25:00  SRR11413683  [kraken2]  OK (rc=0)
+2026-06-12 01:25:00  SRR11413683  [done]  sample complete, files cleaned
+2026-06-12 01:25:00  SRR11413684  [progress]  32/40
+2026-06-12 01:25:00  SRR11413684  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/084/SRR11413684/SRR11413684_1.fastq.gz
+2026-06-12 01:26:53  SRR11413684  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/084/SRR11413684/SRR11413684_2.fastq.gz
+2026-06-12 01:28:40  SRR11413684  [download]  DONE
+2026-06-12 01:28:55  SRR11413684  [verify]  gzip OK
+2026-06-12 01:28:55  SRR11413684  [fastp]  START  fastp -i raw_data/SRR11413684_1.fastq.gz -I raw_data/SRR11413684_2.fastq.gz -o results/trimmed/SRR11413684_1.trimmed.fastq.gz -O results/trimmed/SRR11413684_2.trimmed.fastq.gz -h results/fastp/SRR11413684_fastp.html -j results/fastp/SRR11413684_fastp.json --thread 11
+2026-06-12 01:30:13  SRR11413684  [fastp]  OK (rc=0)
+2026-06-12 01:30:13  SRR11413684  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413684_report.txt --output results/kraken_outputs/SRR11413684_output.txt results/trimmed/SRR11413684_1.trimmed.fastq.gz results/trimmed/SRR11413684_2.trimmed.fastq.gz
+2026-06-12 01:37:35  SRR11413684  [kraken2]  OK (rc=0)
+2026-06-12 01:37:35  SRR11413684  [done]  sample complete, files cleaned
+2026-06-12 01:37:35  SRR11413685  [progress]  33/40
+2026-06-12 01:37:35  SRR11413685  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/085/SRR11413685/SRR11413685_1.fastq.gz
+2026-06-12 01:39:48  SRR11413685  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/085/SRR11413685/SRR11413685_2.fastq.gz
+2026-06-12 01:42:06  SRR11413685  [download]  DONE
+2026-06-12 01:42:23  SRR11413685  [verify]  gzip OK
+2026-06-12 01:42:23  SRR11413685  [fastp]  START  fastp -i raw_data/SRR11413685_1.fastq.gz -I raw_data/SRR11413685_2.fastq.gz -o results/trimmed/SRR11413685_1.trimmed.fastq.gz -O results/trimmed/SRR11413685_2.trimmed.fastq.gz -h results/fastp/SRR11413685_fastp.html -j results/fastp/SRR11413685_fastp.json --thread 11
+2026-06-12 01:43:58  SRR11413685  [fastp]  OK (rc=0)
+2026-06-12 01:43:58  SRR11413685  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413685_report.txt --output results/kraken_outputs/SRR11413685_output.txt results/trimmed/SRR11413685_1.trimmed.fastq.gz results/trimmed/SRR11413685_2.trimmed.fastq.gz
+2026-06-12 01:51:41  SRR11413685  [kraken2]  OK (rc=0)
+2026-06-12 01:51:41  SRR11413685  [done]  sample complete, files cleaned
+2026-06-12 01:51:41  SRR11413686  [progress]  34/40
+2026-06-12 01:51:41  SRR11413686  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/086/SRR11413686/SRR11413686_1.fastq.gz
+2026-06-12 01:53:39  SRR11413686  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/086/SRR11413686/SRR11413686_2.fastq.gz
+2026-06-12 01:55:26  SRR11413686  [download]  DONE
+2026-06-12 01:55:40  SRR11413686  [verify]  R2 corrupt, re-downloading
+2026-06-12 01:58:22  SRR11413686  [verify]  R2 corrupt after retry, skipping sample
+2026-06-12 01:58:22  SRR11413687  [progress]  35/40
+2026-06-12 01:58:22  SRR11413687  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/087/SRR11413687/SRR11413687_1.fastq.gz
+2026-06-12 02:00:35  SRR11413687  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/087/SRR11413687/SRR11413687_2.fastq.gz
+2026-06-12 02:03:05  SRR11413687  [download]  DONE
+2026-06-12 02:03:25  SRR11413687  [verify]  gzip OK
+2026-06-12 02:03:25  SRR11413687  [fastp]  START  fastp -i raw_data/SRR11413687_1.fastq.gz -I raw_data/SRR11413687_2.fastq.gz -o results/trimmed/SRR11413687_1.trimmed.fastq.gz -O results/trimmed/SRR11413687_2.trimmed.fastq.gz -h results/fastp/SRR11413687_fastp.html -j results/fastp/SRR11413687_fastp.json --thread 11
+2026-06-12 02:05:11  SRR11413687  [fastp]  OK (rc=0)
+2026-06-12 02:05:12  SRR11413687  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413687_report.txt --output results/kraken_outputs/SRR11413687_output.txt results/trimmed/SRR11413687_1.trimmed.fastq.gz results/trimmed/SRR11413687_2.trimmed.fastq.gz
+2026-06-12 02:12:57  SRR11413687  [kraken2]  OK (rc=0)
+2026-06-12 02:12:57  SRR11413687  [done]  sample complete, files cleaned
+2026-06-12 02:12:57  SRR11413688  [progress]  36/40
+2026-06-12 02:12:57  SRR11413688  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/088/SRR11413688/SRR11413688_1.fastq.gz
+2026-06-12 02:15:02  SRR11413688  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/088/SRR11413688/SRR11413688_2.fastq.gz
+2026-06-12 02:17:32  SRR11413688  [download]  DONE
+2026-06-12 02:17:47  SRR11413688  [verify]  gzip OK
+2026-06-12 02:17:47  SRR11413688  [fastp]  START  fastp -i raw_data/SRR11413688_1.fastq.gz -I raw_data/SRR11413688_2.fastq.gz -o results/trimmed/SRR11413688_1.trimmed.fastq.gz -O results/trimmed/SRR11413688_2.trimmed.fastq.gz -h results/fastp/SRR11413688_fastp.html -j results/fastp/SRR11413688_fastp.json --thread 11
+2026-06-12 02:19:07  SRR11413688  [fastp]  OK (rc=0)
+2026-06-12 02:19:07  SRR11413688  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413688_report.txt --output results/kraken_outputs/SRR11413688_output.txt results/trimmed/SRR11413688_1.trimmed.fastq.gz results/trimmed/SRR11413688_2.trimmed.fastq.gz
+2026-06-12 02:28:34  SRR11413688  [kraken2]  OK (rc=0)
+2026-06-12 02:28:35  SRR11413688  [done]  sample complete, files cleaned
+2026-06-12 02:28:35  SRR11413689  [progress]  37/40
+2026-06-12 02:28:35  SRR11413689  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/089/SRR11413689/SRR11413689_1.fastq.gz
+2026-06-12 02:30:25  SRR11413689  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/089/SRR11413689/SRR11413689_2.fastq.gz
+2026-06-12 02:32:20  SRR11413689  [download]  DONE
+2026-06-12 02:32:27  SRR11413689  [verify]  R1 corrupt, re-downloading
+2026-06-12 02:34:34  SRR11413689  [verify]  R1 corrupt after retry, skipping sample
+2026-06-12 02:34:34  SRR11413690  [progress]  38/40
+2026-06-12 02:34:34  SRR11413690  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/090/SRR11413690/SRR11413690_1.fastq.gz
+2026-06-12 02:36:43  SRR11413690  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/090/SRR11413690/SRR11413690_2.fastq.gz
+2026-06-12 02:39:04  SRR11413690  [download]  DONE
+2026-06-12 02:39:18  SRR11413690  [verify]  gzip OK
+2026-06-12 02:39:18  SRR11413690  [fastp]  START  fastp -i raw_data/SRR11413690_1.fastq.gz -I raw_data/SRR11413690_2.fastq.gz -o results/trimmed/SRR11413690_1.trimmed.fastq.gz -O results/trimmed/SRR11413690_2.trimmed.fastq.gz -h results/fastp/SRR11413690_fastp.html -j results/fastp/SRR11413690_fastp.json --thread 11
+2026-06-12 02:40:31  SRR11413690  [fastp]  OK (rc=0)
+2026-06-12 02:40:31  SRR11413690  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413690_report.txt --output results/kraken_outputs/SRR11413690_output.txt results/trimmed/SRR11413690_1.trimmed.fastq.gz results/trimmed/SRR11413690_2.trimmed.fastq.gz
+2026-06-12 02:46:44  SRR11413690  [kraken2]  OK (rc=0)
+2026-06-12 02:46:44  SRR11413690  [done]  sample complete, files cleaned
+2026-06-12 02:46:44  SRR11413691  [progress]  39/40
+2026-06-12 02:46:44  SRR11413691  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/091/SRR11413691/SRR11413691_1.fastq.gz
+2026-06-12 02:49:07  SRR11413691  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/091/SRR11413691/SRR11413691_2.fastq.gz
+2026-06-12 02:51:55  SRR11413691  [download]  DONE
+2026-06-12 02:52:14  SRR11413691  [verify]  gzip OK
+2026-06-12 02:52:14  SRR11413691  [fastp]  START  fastp -i raw_data/SRR11413691_1.fastq.gz -I raw_data/SRR11413691_2.fastq.gz -o results/trimmed/SRR11413691_1.trimmed.fastq.gz -O results/trimmed/SRR11413691_2.trimmed.fastq.gz -h results/fastp/SRR11413691_fastp.html -j results/fastp/SRR11413691_fastp.json --thread 11
+2026-06-12 02:53:55  SRR11413691  [fastp]  OK (rc=0)
+2026-06-12 02:53:55  SRR11413691  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413691_report.txt --output results/kraken_outputs/SRR11413691_output.txt results/trimmed/SRR11413691_1.trimmed.fastq.gz results/trimmed/SRR11413691_2.trimmed.fastq.gz
+2026-06-12 03:02:58  SRR11413691  [kraken2]  OK (rc=0)
+2026-06-12 03:02:58  SRR11413691  [done]  sample complete, files cleaned
+2026-06-12 03:02:58  SRR11413692  [progress]  40/40
+2026-06-12 03:02:58  SRR11413692  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/092/SRR11413692/SRR11413692_1.fastq.gz
+2026-06-12 03:04:41  SRR11413692  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/092/SRR11413692/SRR11413692_2.fastq.gz
+2026-06-12 03:06:31  SRR11413692  [download]  DONE
+2026-06-12 03:06:37  SRR11413692  [verify]  R1 corrupt, re-downloading
+2026-06-12 03:08:37  SRR11413692  [verify]  R2 corrupt, re-downloading
+2026-06-12 03:10:52  SRR11413692  [verify]  R2 corrupt after retry, skipping sample
+2026-06-12 03:10:52  BATCH  [done]  total=40  success=31  failed=9  failed_ids=SRR11413607,SRR11413608,SRR11413615,SRR11413650,SRR11413655,SRR11413679,SRR11413686,SRR11413689,SRR11413692
+2026-06-12 03:22:32  BATCH  [start]  manifest=metadata/download_manifest_SRR11413xxx.tsv  threads=11
+2026-06-12 03:22:32  SRR11413606  [progress]  1/40
+2026-06-12 03:22:32  SRR11413606  [skip]  Kraken2 report already exists
+2026-06-12 03:22:32  SRR11413607  [progress]  2/40
+2026-06-12 03:22:32  SRR11413607  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/007/SRR11413607/SRR11413607_1.fastq.gz
+2026-06-12 03:24:50  SRR11413607  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/007/SRR11413607/SRR11413607_2.fastq.gz
+2026-06-12 03:26:53  SRR11413607  [download]  DONE
+2026-06-12 03:27:10  SRR11413607  [verify]  gzip OK
+2026-06-12 03:27:10  SRR11413607  [fastp]  START  fastp -i raw_data/SRR11413607_1.fastq.gz -I raw_data/SRR11413607_2.fastq.gz -o results/trimmed/SRR11413607_1.trimmed.fastq.gz -O results/trimmed/SRR11413607_2.trimmed.fastq.gz -h results/fastp/SRR11413607_fastp.html -j results/fastp/SRR11413607_fastp.json --thread 11
+2026-06-12 03:28:38  SRR11413607  [fastp]  OK (rc=0)
+2026-06-12 03:28:38  SRR11413607  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413607_report.txt --output results/kraken_outputs/SRR11413607_output.txt results/trimmed/SRR11413607_1.trimmed.fastq.gz results/trimmed/SRR11413607_2.trimmed.fastq.gz
+2026-06-12 03:36:48  SRR11413607  [kraken2]  OK (rc=0)
+2026-06-12 03:36:49  SRR11413607  [done]  sample complete, files cleaned
+2026-06-12 03:36:49  SRR11413608  [progress]  3/40
+2026-06-12 03:36:49  SRR11413608  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/008/SRR11413608/SRR11413608_1.fastq.gz
+2026-06-12 03:38:51  SRR11413608  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/008/SRR11413608/SRR11413608_2.fastq.gz
+2026-06-12 03:41:00  SRR11413608  [download]  DONE
+2026-06-12 03:41:08  SRR11413608  [verify]  R1 corrupt, re-downloading
+2026-06-12 03:43:26  SRR11413608  [verify]  gzip OK
+2026-06-12 03:43:26  SRR11413608  [fastp]  START  fastp -i raw_data/SRR11413608_1.fastq.gz -I raw_data/SRR11413608_2.fastq.gz -o results/trimmed/SRR11413608_1.trimmed.fastq.gz -O results/trimmed/SRR11413608_2.trimmed.fastq.gz -h results/fastp/SRR11413608_fastp.html -j results/fastp/SRR11413608_fastp.json --thread 11
+2026-06-12 03:44:57  SRR11413608  [fastp]  OK (rc=0)
+2026-06-12 03:44:57  SRR11413608  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413608_report.txt --output results/kraken_outputs/SRR11413608_output.txt results/trimmed/SRR11413608_1.trimmed.fastq.gz results/trimmed/SRR11413608_2.trimmed.fastq.gz
+2026-06-12 03:53:01  SRR11413608  [kraken2]  OK (rc=0)
+2026-06-12 03:53:01  SRR11413608  [done]  sample complete, files cleaned
+2026-06-12 03:53:01  SRR11413609  [progress]  4/40
+2026-06-12 03:53:01  SRR11413609  [skip]  Kraken2 report already exists
+2026-06-12 03:53:01  SRR11413610  [progress]  5/40
+2026-06-12 03:53:01  SRR11413610  [skip]  Kraken2 report already exists
+2026-06-12 03:53:01  SRR11413611  [progress]  6/40
+2026-06-12 03:53:01  SRR11413611  [skip]  Kraken2 report already exists
+2026-06-12 03:53:01  SRR11413612  [progress]  7/40
+2026-06-12 03:53:01  SRR11413612  [skip]  Kraken2 report already exists
+2026-06-12 03:53:01  SRR11413613  [progress]  8/40
+2026-06-12 03:53:01  SRR11413613  [skip]  Kraken2 report already exists
+2026-06-12 03:53:01  SRR11413614  [progress]  9/40
+2026-06-12 03:53:01  SRR11413614  [skip]  Kraken2 report already exists
+2026-06-12 03:53:01  SRR11413615  [progress]  10/40
+2026-06-12 03:53:01  SRR11413615  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/015/SRR11413615/SRR11413615_1.fastq.gz
+2026-06-12 03:54:54  SRR11413615  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/015/SRR11413615/SRR11413615_2.fastq.gz
+2026-06-12 03:56:48  SRR11413615  [download]  DONE
+2026-06-12 03:57:02  SRR11413615  [verify]  gzip OK
+2026-06-12 03:57:02  SRR11413615  [fastp]  START  fastp -i raw_data/SRR11413615_1.fastq.gz -I raw_data/SRR11413615_2.fastq.gz -o results/trimmed/SRR11413615_1.trimmed.fastq.gz -O results/trimmed/SRR11413615_2.trimmed.fastq.gz -h results/fastp/SRR11413615_fastp.html -j results/fastp/SRR11413615_fastp.json --thread 11
+2026-06-12 03:58:19  SRR11413615  [fastp]  OK (rc=0)
+2026-06-12 03:58:20  SRR11413615  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413615_report.txt --output results/kraken_outputs/SRR11413615_output.txt results/trimmed/SRR11413615_1.trimmed.fastq.gz results/trimmed/SRR11413615_2.trimmed.fastq.gz
+2026-06-12 04:05:17  SRR11413615  [kraken2]  OK (rc=0)
+2026-06-12 04:05:18  SRR11413615  [done]  sample complete, files cleaned
+2026-06-12 04:05:18  SRR11413617  [progress]  11/40
+2026-06-12 04:05:18  SRR11413617  [skip]  Kraken2 report already exists
+2026-06-12 04:05:18  SRR11413618  [progress]  12/40
+2026-06-12 04:05:18  SRR11413618  [skip]  Kraken2 report already exists
+2026-06-12 04:05:18  SRR11413619  [progress]  13/40
+2026-06-12 04:05:18  SRR11413619  [skip]  Kraken2 report already exists
+2026-06-12 04:05:18  SRR11413620  [progress]  14/40
+2026-06-12 04:05:18  SRR11413620  [skip]  Kraken2 report already exists
+2026-06-12 04:05:18  SRR11413645  [progress]  15/40
+2026-06-12 04:05:18  SRR11413645  [skip]  Kraken2 report already exists
+2026-06-12 04:05:18  SRR11413646  [progress]  16/40
+2026-06-12 04:05:18  SRR11413646  [skip]  Kraken2 report already exists
+2026-06-12 04:05:18  SRR11413647  [progress]  17/40
+2026-06-12 04:05:18  SRR11413647  [skip]  Kraken2 report already exists
+2026-06-12 04:05:18  SRR11413648  [progress]  18/40
+2026-06-12 04:05:18  SRR11413648  [skip]  Kraken2 report already exists
+2026-06-12 04:05:18  SRR11413649  [progress]  19/40
+2026-06-12 04:05:18  SRR11413649  [skip]  Kraken2 report already exists
+2026-06-12 04:05:18  SRR11413650  [progress]  20/40
+2026-06-12 04:05:18  SRR11413650  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/050/SRR11413650/SRR11413650_1.fastq.gz
+2026-06-12 04:07:27  SRR11413650  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/050/SRR11413650/SRR11413650_2.fastq.gz
+2026-06-12 04:09:46  SRR11413650  [download]  DONE
+2026-06-12 04:10:03  SRR11413650  [verify]  gzip OK
+2026-06-12 04:10:03  SRR11413650  [fastp]  START  fastp -i raw_data/SRR11413650_1.fastq.gz -I raw_data/SRR11413650_2.fastq.gz -o results/trimmed/SRR11413650_1.trimmed.fastq.gz -O results/trimmed/SRR11413650_2.trimmed.fastq.gz -h results/fastp/SRR11413650_fastp.html -j results/fastp/SRR11413650_fastp.json --thread 11
+2026-06-12 04:11:29  SRR11413650  [fastp]  OK (rc=0)
+2026-06-12 04:11:29  SRR11413650  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413650_report.txt --output results/kraken_outputs/SRR11413650_output.txt results/trimmed/SRR11413650_1.trimmed.fastq.gz results/trimmed/SRR11413650_2.trimmed.fastq.gz
+2026-06-12 04:19:32  SRR11413650  [kraken2]  OK (rc=0)
+2026-06-12 04:19:33  SRR11413650  [done]  sample complete, files cleaned
+2026-06-12 04:19:33  SRR11413652  [progress]  21/40
+2026-06-12 04:19:33  SRR11413652  [skip]  Kraken2 report already exists
+2026-06-12 04:19:33  SRR11413653  [progress]  22/40
+2026-06-12 04:19:33  SRR11413653  [skip]  Kraken2 report already exists
+2026-06-12 04:19:33  SRR11413654  [progress]  23/40
+2026-06-12 04:19:33  SRR11413654  [skip]  Kraken2 report already exists
+2026-06-12 04:19:33  SRR11413655  [progress]  24/40
+2026-06-12 04:19:33  SRR11413655  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/055/SRR11413655/SRR11413655_1.fastq.gz
+2026-06-12 04:21:29  SRR11413655  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/055/SRR11413655/SRR11413655_2.fastq.gz
+2026-06-12 04:23:36  SRR11413655  [download]  DONE
+2026-06-12 04:23:51  SRR11413655  [verify]  gzip OK
+2026-06-12 04:23:51  SRR11413655  [fastp]  START  fastp -i raw_data/SRR11413655_1.fastq.gz -I raw_data/SRR11413655_2.fastq.gz -o results/trimmed/SRR11413655_1.trimmed.fastq.gz -O results/trimmed/SRR11413655_2.trimmed.fastq.gz -h results/fastp/SRR11413655_fastp.html -j results/fastp/SRR11413655_fastp.json --thread 11
+2026-06-12 04:25:14  SRR11413655  [fastp]  OK (rc=0)
+2026-06-12 04:25:14  SRR11413655  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413655_report.txt --output results/kraken_outputs/SRR11413655_output.txt results/trimmed/SRR11413655_1.trimmed.fastq.gz results/trimmed/SRR11413655_2.trimmed.fastq.gz
+2026-06-12 04:32:14  SRR11413655  [kraken2]  OK (rc=0)
+2026-06-12 04:32:14  SRR11413655  [done]  sample complete, files cleaned
+2026-06-12 04:32:14  SRR11413656  [progress]  25/40
+2026-06-12 04:32:14  SRR11413656  [skip]  Kraken2 report already exists
+2026-06-12 04:32:14  SRR11413657  [progress]  26/40
+2026-06-12 04:32:14  SRR11413657  [skip]  Kraken2 report already exists
+2026-06-12 04:32:14  SRR11413678  [progress]  27/40
+2026-06-12 04:32:14  SRR11413678  [skip]  Kraken2 report already exists
+2026-06-12 04:32:14  SRR11413679  [progress]  28/40
+2026-06-12 04:32:14  SRR11413679  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/079/SRR11413679/SRR11413679_1.fastq.gz
+2026-06-12 04:34:04  SRR11413679  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/079/SRR11413679/SRR11413679_2.fastq.gz
+2026-06-12 04:36:05  SRR11413679  [download]  DONE
+2026-06-12 04:36:21  SRR11413679  [verify]  gzip OK
+2026-06-12 04:36:21  SRR11413679  [fastp]  START  fastp -i raw_data/SRR11413679_1.fastq.gz -I raw_data/SRR11413679_2.fastq.gz -o results/trimmed/SRR11413679_1.trimmed.fastq.gz -O results/trimmed/SRR11413679_2.trimmed.fastq.gz -h results/fastp/SRR11413679_fastp.html -j results/fastp/SRR11413679_fastp.json --thread 11
+2026-06-12 04:37:42  SRR11413679  [fastp]  OK (rc=0)
+2026-06-12 04:37:42  SRR11413679  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413679_report.txt --output results/kraken_outputs/SRR11413679_output.txt results/trimmed/SRR11413679_1.trimmed.fastq.gz results/trimmed/SRR11413679_2.trimmed.fastq.gz
+2026-06-12 04:45:17  SRR11413679  [kraken2]  OK (rc=0)
+2026-06-12 04:45:18  SRR11413679  [done]  sample complete, files cleaned
+2026-06-12 04:45:18  SRR11413680  [progress]  29/40
+2026-06-12 04:45:18  SRR11413680  [skip]  Kraken2 report already exists
+2026-06-12 04:45:18  SRR11413681  [progress]  30/40
+2026-06-12 04:45:18  SRR11413681  [skip]  Kraken2 report already exists
+2026-06-12 04:45:18  SRR11413683  [progress]  31/40
+2026-06-12 04:45:18  SRR11413683  [skip]  Kraken2 report already exists
+2026-06-12 04:45:18  SRR11413684  [progress]  32/40
+2026-06-12 04:45:18  SRR11413684  [skip]  Kraken2 report already exists
+2026-06-12 04:45:18  SRR11413685  [progress]  33/40
+2026-06-12 04:45:18  SRR11413685  [skip]  Kraken2 report already exists
+2026-06-12 04:45:18  SRR11413686  [progress]  34/40
+2026-06-12 04:45:18  SRR11413686  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/086/SRR11413686/SRR11413686_1.fastq.gz
+2026-06-12 04:47:03  SRR11413686  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/086/SRR11413686/SRR11413686_2.fastq.gz
+2026-06-12 04:48:53  SRR11413686  [download]  DONE
+2026-06-12 04:49:07  SRR11413686  [verify]  gzip OK
+2026-06-12 04:49:07  SRR11413686  [fastp]  START  fastp -i raw_data/SRR11413686_1.fastq.gz -I raw_data/SRR11413686_2.fastq.gz -o results/trimmed/SRR11413686_1.trimmed.fastq.gz -O results/trimmed/SRR11413686_2.trimmed.fastq.gz -h results/fastp/SRR11413686_fastp.html -j results/fastp/SRR11413686_fastp.json --thread 11
+2026-06-12 04:50:20  SRR11413686  [fastp]  OK (rc=0)
+2026-06-12 04:50:21  SRR11413686  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413686_report.txt --output results/kraken_outputs/SRR11413686_output.txt results/trimmed/SRR11413686_1.trimmed.fastq.gz results/trimmed/SRR11413686_2.trimmed.fastq.gz
+2026-06-12 04:57:05  SRR11413686  [kraken2]  OK (rc=0)
+2026-06-12 04:57:05  SRR11413686  [done]  sample complete, files cleaned
+2026-06-12 04:57:05  SRR11413687  [progress]  35/40
+2026-06-12 04:57:05  SRR11413687  [skip]  Kraken2 report already exists
+2026-06-12 04:57:05  SRR11413688  [progress]  36/40
+2026-06-12 04:57:05  SRR11413688  [skip]  Kraken2 report already exists
+2026-06-12 04:57:05  SRR11413689  [progress]  37/40
+2026-06-12 04:57:05  SRR11413689  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/089/SRR11413689/SRR11413689_1.fastq.gz
+2026-06-12 04:59:13  SRR11413689  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/089/SRR11413689/SRR11413689_2.fastq.gz
+2026-06-12 05:01:15  SRR11413689  [download]  DONE
+2026-06-12 05:01:30  SRR11413689  [verify]  gzip OK
+2026-06-12 05:01:30  SRR11413689  [fastp]  START  fastp -i raw_data/SRR11413689_1.fastq.gz -I raw_data/SRR11413689_2.fastq.gz -o results/trimmed/SRR11413689_1.trimmed.fastq.gz -O results/trimmed/SRR11413689_2.trimmed.fastq.gz -h results/fastp/SRR11413689_fastp.html -j results/fastp/SRR11413689_fastp.json --thread 11
+2026-06-12 05:02:47  SRR11413689  [fastp]  OK (rc=0)
+2026-06-12 05:02:47  SRR11413689  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413689_report.txt --output results/kraken_outputs/SRR11413689_output.txt results/trimmed/SRR11413689_1.trimmed.fastq.gz results/trimmed/SRR11413689_2.trimmed.fastq.gz
+2026-06-12 05:10:13  SRR11413689  [kraken2]  OK (rc=0)
+2026-06-12 05:10:14  SRR11413689  [done]  sample complete, files cleaned
+2026-06-12 05:10:14  SRR11413690  [progress]  38/40
+2026-06-12 05:10:14  SRR11413690  [skip]  Kraken2 report already exists
+2026-06-12 05:10:14  SRR11413691  [progress]  39/40
+2026-06-12 05:10:14  SRR11413691  [skip]  Kraken2 report already exists
+2026-06-12 05:10:14  SRR11413692  [progress]  40/40
+2026-06-12 05:10:14  SRR11413692  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/092/SRR11413692/SRR11413692_1.fastq.gz
+2026-06-12 05:11:52  SRR11413692  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/092/SRR11413692/SRR11413692_2.fastq.gz
+2026-06-12 05:13:48  SRR11413692  [download]  DONE
+2026-06-12 05:13:55  SRR11413692  [verify]  R1 corrupt, re-downloading
+2026-06-12 05:16:04  SRR11413692  [verify]  R1 corrupt after retry, skipping sample
+2026-06-12 05:16:04  BATCH  [done]  total=40  success=39  failed=1  failed_ids=SRR11413692
+2026-06-12 05:21:05  BATCH  [start]  manifest=metadata/download_manifest_SRR11413xxx.tsv  threads=11
+2026-06-12 05:21:05  SRR11413606  [progress]  1/40
+2026-06-12 05:21:05  SRR11413606  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413607  [progress]  2/40
+2026-06-12 05:21:05  SRR11413607  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413608  [progress]  3/40
+2026-06-12 05:21:05  SRR11413608  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413609  [progress]  4/40
+2026-06-12 05:21:05  SRR11413609  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413610  [progress]  5/40
+2026-06-12 05:21:05  SRR11413610  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413611  [progress]  6/40
+2026-06-12 05:21:05  SRR11413611  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413612  [progress]  7/40
+2026-06-12 05:21:05  SRR11413612  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413613  [progress]  8/40
+2026-06-12 05:21:05  SRR11413613  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413614  [progress]  9/40
+2026-06-12 05:21:05  SRR11413614  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413615  [progress]  10/40
+2026-06-12 05:21:05  SRR11413615  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413617  [progress]  11/40
+2026-06-12 05:21:05  SRR11413617  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413618  [progress]  12/40
+2026-06-12 05:21:05  SRR11413618  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413619  [progress]  13/40
+2026-06-12 05:21:05  SRR11413619  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413620  [progress]  14/40
+2026-06-12 05:21:05  SRR11413620  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413645  [progress]  15/40
+2026-06-12 05:21:05  SRR11413645  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413646  [progress]  16/40
+2026-06-12 05:21:05  SRR11413646  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413647  [progress]  17/40
+2026-06-12 05:21:05  SRR11413647  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413648  [progress]  18/40
+2026-06-12 05:21:05  SRR11413648  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413649  [progress]  19/40
+2026-06-12 05:21:05  SRR11413649  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413650  [progress]  20/40
+2026-06-12 05:21:05  SRR11413650  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413652  [progress]  21/40
+2026-06-12 05:21:05  SRR11413652  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413653  [progress]  22/40
+2026-06-12 05:21:05  SRR11413653  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413654  [progress]  23/40
+2026-06-12 05:21:05  SRR11413654  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413655  [progress]  24/40
+2026-06-12 05:21:05  SRR11413655  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413656  [progress]  25/40
+2026-06-12 05:21:05  SRR11413656  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413657  [progress]  26/40
+2026-06-12 05:21:05  SRR11413657  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413678  [progress]  27/40
+2026-06-12 05:21:05  SRR11413678  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413679  [progress]  28/40
+2026-06-12 05:21:05  SRR11413679  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413680  [progress]  29/40
+2026-06-12 05:21:05  SRR11413680  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413681  [progress]  30/40
+2026-06-12 05:21:05  SRR11413681  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413683  [progress]  31/40
+2026-06-12 05:21:05  SRR11413683  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413684  [progress]  32/40
+2026-06-12 05:21:05  SRR11413684  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413685  [progress]  33/40
+2026-06-12 05:21:05  SRR11413685  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413686  [progress]  34/40
+2026-06-12 05:21:05  SRR11413686  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413687  [progress]  35/40
+2026-06-12 05:21:05  SRR11413687  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413688  [progress]  36/40
+2026-06-12 05:21:05  SRR11413688  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413689  [progress]  37/40
+2026-06-12 05:21:05  SRR11413689  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413690  [progress]  38/40
+2026-06-12 05:21:05  SRR11413690  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413691  [progress]  39/40
+2026-06-12 05:21:05  SRR11413691  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413692  [progress]  40/40
+2026-06-12 05:21:05  SRR11413692  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/092/SRR11413692/SRR11413692_1.fastq.gz
+2026-06-12 05:22:48  SRR11413692  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/092/SRR11413692/SRR11413692_2.fastq.gz
+2026-06-12 05:24:32  SRR11413692  [download]  DONE
+2026-06-12 05:24:46  SRR11413692  [verify]  gzip OK
+2026-06-12 05:24:46  SRR11413692  [fastp]  START  fastp -i raw_data/SRR11413692_1.fastq.gz -I raw_data/SRR11413692_2.fastq.gz -o results/trimmed/SRR11413692_1.trimmed.fastq.gz -O results/trimmed/SRR11413692_2.trimmed.fastq.gz -h results/fastp/SRR11413692_fastp.html -j results/fastp/SRR11413692_fastp.json --thread 11
+2026-06-12 05:25:55  SRR11413692  [fastp]  OK (rc=0)
+2026-06-12 05:25:56  SRR11413692  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413692_report.txt --output results/kraken_outputs/SRR11413692_output.txt results/trimmed/SRR11413692_1.trimmed.fastq.gz results/trimmed/SRR11413692_2.trimmed.fastq.gz
+2026-06-12 05:32:02  SRR11413692  [kraken2]  OK (rc=0)
+2026-06-12 05:32:02  SRR11413692  [done]  sample complete, files cleaned
+2026-06-12 05:32:02  BATCH  [done]  total=40  success=40  failed=0  failed_ids=none

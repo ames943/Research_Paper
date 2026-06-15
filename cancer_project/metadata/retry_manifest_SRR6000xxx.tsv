@@ -1,0 +1,7 @@
+run_accession	response_label	fastq_ftp_1	fastq_ftp_2	fastq_bytes	read_count
+SRR6000949	NR	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/009/SRR6000949/SRR6000949_1.fastq.gz	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/009/SRR6000949/SRR6000949_2.fastq.gz	11661246633	66471810
+SRR6000896	NR	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/006/SRR6000896/SRR6000896_1.fastq.gz	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/006/SRR6000896/SRR6000896_2.fastq.gz	8956459936	51563560
+SRR6000901	R	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/001/SRR6000901/SRR6000901_1.fastq.gz	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/001/SRR6000901/SRR6000901_2.fastq.gz	9555393996	54206526
+SRR6000942	NR	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/002/SRR6000942/SRR6000942_1.fastq.gz	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/002/SRR6000942/SRR6000942_2.fastq.gz	3690102029	21117658
+SRR6000900	R	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/000/SRR6000900/SRR6000900_1.fastq.gz	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/000/SRR6000900/SRR6000900_2.fastq.gz	4629624411	28210234
+SRR6000892	NR	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/002/SRR6000892/SRR6000892_1.fastq.gz	ftp.sra.ebi.ac.uk/vol1/fastq/SRR600/002/SRR6000892/SRR6000892_2.fastq.gz	9039504611	51481586

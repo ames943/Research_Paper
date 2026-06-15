@@ -1,0 +1,2 @@
+run_accession	fastq_ftp	fastq_md5	fastq_bytes	library_layout	library_strategy	sample_accession
+ERR2155099	ftp.sra.ebi.ac.uk/vol1/fastq/ERR215/009/ERR2155099/ERR2155099.fastq.gz	b8d55d6b1a348310da1e40012ca86fdf	133708088	SINGLE	AMPLICON	SAMEA104335257

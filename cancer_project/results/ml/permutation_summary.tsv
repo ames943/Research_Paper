@@ -1,0 +1,2 @@
+observed_auc	n_perms	perm_auc_mean	perm_auc_std	perm_auc_min	perm_auc_max	n_perm_gte_obs	empirical_pval	runtime_sec
+0.4003	100	0.5002	0.0813	0.2912	0.717	85	0.85	356.1

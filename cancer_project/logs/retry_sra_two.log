@@ -1,0 +1,88 @@
+=== [SRR6000900] prefetch ===
+2026-06-14T20:25:11 prefetch.3.4.1: 1) Resolving 'SRR6000900'...
+2026-06-14T20:25:12 prefetch.3.4.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-06-14T20:25:13 prefetch.3.4.1: 1) Downloading 'SRR6000900'...
+2026-06-14T20:25:13 prefetch.3.4.1:  SRA Normalized Format file is being retrieved
+2026-06-14T20:25:13 prefetch.3.4.1:  Downloading via HTTPS...
+2026-06-14T21:04:18 prefetch.3.4.1:  HTTPS download succeed
+2026-06-14T21:04:25 prefetch.3.4.1:  'SRR6000900' is valid: 3364558368 bytes were streamed from 3364548131
+2026-06-14T21:04:25 prefetch.3.4.1: 1) 'SRR6000900' was downloaded successfully
+2026-06-14T21:04:25 prefetch.3.4.1: 1) Resolving 'SRR6000900's dependencies...
+2026-06-14T21:04:25 prefetch.3.4.1: 'SRR6000900' has 0 unresolved dependencies
+=== [SRR6000900] fasterq-dump ===
+spots read      : 28,210,234
+reads read      : 56,420,468
+reads written   : 56,420,468
+=== [SRR6000900] gzip ===
+=== [SRR6000900] verify ===
+=== [SRR6000900] fastp ===
+Read1 before filtering:
+total reads: 28210234
+total bases: 4245607598
+Q20 bases: 4138061496(97.4669%)
+Q30 bases: 4000904963(94.2363%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 28210234
+total bases: 4245642950
+Q20 bases: 4072192086(95.9146%)
+Q30 bases: 3886120724(91.532%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 28132278
+total bases: 4233599845
+Q20 bases: 4127862789(97.5024%)
+Q30 bases: 3991158899(94.2734%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 28132278
+total bases: 4233595882
+Q20 bases: 4065225121(96.023%)
+Q30 bases: 3879753616(91.642%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 56264556
+reads failed due to low quality: 155912
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 10528
+bases trimmed due to adapters: 604137
+
+Duplication rate: 1.08382%
+
+Insert size peak (evaluated by paired-end reads): 268
+
+JSON report: results/fastp/SRR6000900_fastp.json
+HTML report: results/fastp/SRR6000900_fastp.html
+
+fastp -i raw_data/SRR6000900_1.fastq.gz -I raw_data/SRR6000900_2.fastq.gz -o results/trimmed/SRR6000900_1.trimmed.fastq.gz -O results/trimmed/SRR6000900_2.trimmed.fastq.gz -h results/fastp/SRR6000900_fastp.html -j results/fastp/SRR6000900_fastp.json --thread 11 
+fastp v1.1.0, time used: 109 seconds
+=== [SRR6000900] kraken2 ===
+Loading database information... done.
+28132278 sequences (8467.20 Mbp) processed in 781.269s (2160.5 Kseq/m, 650.26 Mbp/m).
+  24971576 sequences classified (88.76%)
+  3160702 sequences unclassified (11.24%)
+=== [SRR6000900] cleanup ===
+=== [SRR6000900] DONE ===
+=== [SRR6000892] prefetch ===
+2026-06-14T21:56:44 prefetch.3.4.1: 1) Resolving 'SRR6000892'...
+2026-06-14T21:56:45 prefetch.3.4.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-06-14T21:56:46 prefetch.3.4.1: 1) Downloading 'SRR6000892'...
+2026-06-14T21:56:46 prefetch.3.4.1:  SRA Normalized Format file is being retrieved
+2026-06-14T21:56:46 prefetch.3.4.1:  Downloading via HTTPS...
+2026-06-14T23:14:01 prefetch.3.4.1:  HTTPS download succeed
+2026-06-14T23:14:15 prefetch.3.4.1:  'SRR6000892' is valid: 6629294857 bytes were streamed from 6629289997
+2026-06-14T23:14:15 prefetch.3.4.1: 1) 'SRR6000892' was downloaded successfully
+2026-06-14T23:14:15 prefetch.3.4.1: 1) Resolving 'SRR6000892's dependencies...
+2026-06-14T23:14:15 prefetch.3.4.1: 'SRR6000892' has 0 unresolved dependencies
+=== [SRR6000892] fasterq-dump ===
+spots read      : 51,481,586
+reads read      : 102,963,172
+reads written   : 102,963,172
+=== [SRR6000892] gzip ===
+scripts/retry_sra_two.sh: line 10: 28711 Terminated: 15          gzip -f "raw_data/${SRR}_2.fastq"

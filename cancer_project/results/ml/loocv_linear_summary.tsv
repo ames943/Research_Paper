@@ -1,0 +1,4 @@
+model	accuracy	roc_auc	sensitivity	specificity	TP	FP	TN	FN
+L1_LogReg	0.4684	0.3905	0.4694	0.4667	23	16	14	26
+ElasticNet_LogReg	0.4304	0.4003	0.4286	0.4333	21	17	13	28
+RandomForest	0.5823	0.2806	0.9184	0.0333	45	29	1	4

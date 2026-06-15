@@ -1,0 +1,2 @@
+n_samples	n_R	n_NR	accuracy	roc_auc	sensitivity	specificity	TP	FP	TN	FN	feature_selection
+39	24	15	0.5128	0.3931	0.75	0.1333	18	13	2	6	prevalence(10%)+variance(top50%)+univariate_top100_per_fold

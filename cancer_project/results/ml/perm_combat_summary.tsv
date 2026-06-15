@@ -1,0 +1,2 @@
+best_model	observed_auc	n_perms	perm_auc_mean	perm_auc_std	perm_auc_min	perm_auc_max	n_perm_gte_obs	empirical_pval
+ElasticNet_LogReg	0.3507	100	0.4948	0.0805	0.3184	0.6643	95	0.95

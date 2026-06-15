@@ -1,0 +1,26 @@
+Permutation test: N=100, observed AUC=0.4486
+Dataset: 39 samples, 2459 features
+Pipeline: ElasticNet (l1_ratio=0.5) + fold-wise feature selection
+
+  Perm   1/100  AUC=0.6972  elapsed=1s  ETA=131s
+  Perm  10/100  AUC=0.5694  elapsed=13s  ETA=118s
+  Perm  20/100  AUC=0.6889  elapsed=26s  ETA=104s
+  Perm  30/100  AUC=0.4278  elapsed=39s  ETA=90s
+  Perm  40/100  AUC=0.5444  elapsed=51s  ETA=77s
+  Perm  50/100  AUC=0.4472  elapsed=64s  ETA=64s
+  Perm  60/100  AUC=0.3639  elapsed=77s  ETA=51s
+  Perm  70/100  AUC=0.7194  elapsed=90s  ETA=38s
+  Perm  80/100  AUC=0.6417  elapsed=103s  ETA=26s
+  Perm  90/100  AUC=0.3944  elapsed=116s  ETA=13s
+  Perm 100/100  AUC=0.5833  elapsed=128s  ETA=0s
+
+=======================================================
+PERMUTATION TEST RESULTS
+=======================================================
+Observed AUC    : 0.4486
+Permuted AUC    : mean=0.4998  std=0.1343
+  min=0.2528  max=0.8167
+Traceback (most recent call last):
+  File "/Users/ameygarg/cancer_project/cancer_project/scripts/permutation_test.py", line 138, in <module>
+    print(f"Empirical p-val : {p_value:.4f}  ({int(perm_aucs >= OBSERVED_AUC)} / {N_PERMS} >= {OBSERVED_AUC})")
+TypeError: only length-1 arrays can be converted to Python scalars

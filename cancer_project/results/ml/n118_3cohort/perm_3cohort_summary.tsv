@@ -1,0 +1,2 @@
+best_model	observed_auc	n_perms	perm_auc_mean	perm_auc_std	perm_auc_min	perm_auc_max	n_perm_gte_obs	empirical_pval
+RandomForest	0.5421	100	0.4796	0.0768	0.2879	0.6095	25	0.25

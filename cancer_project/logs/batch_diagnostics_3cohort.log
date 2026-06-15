@@ -1,0 +1,31 @@
+Samples  : 118
+Features : 2813 genera (CLR)
+Batch    : {'cohort2 (SRR11413)': 40, 'cohort1 (SRR5930/Frankel)': 39, 'cohort3 (SRR6000/Matson)': 39}
+Response : {'R': 64, 'NR': 54}
+
+Computing Aitchison pairwise distances ...
+  Distance matrix: (118, 118)  max=104.22  mean=66.02
+
+Running PERMANOVA — batch (n_perms=999) ...
+Running PERMANOVA — response (n_perms=999) ...
+
+======================================================================
+PERMANOVA results — Aitchison distance, n=118, 3 cohorts
+======================================================================
+Factor            R²        F   p-value  n_groups  note
+----------------------------------------------------------------------
+  batch       0.0768   4.7815    0.0000 ***   (3 groups, 999 perms)
+  response    0.0068   0.7931    0.8468 ns   (2 groups, 999 perms)
+
+Interpretation:
+  batch     : 7.7% of Aitchison variance explained (p=0.000)
+  response  : 0.7% of Aitchison variance explained (p=0.847)
+  Batch effect is 11.3x larger than biological signal
+
+Saved: results/ml/batch_diagnostics/permanova_3cohort_results.tsv
+Updated: results/ml/batch_diagnostics/permanova_comparison.tsv
+
+Running PCA ...
+Saved: results/ml/batch_diagnostics/pca_3cohort_batch_vs_response.png
+
+Done.

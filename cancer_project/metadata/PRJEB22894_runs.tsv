@@ -1,0 +1,2 @@
+run_accession	fastq_ftp	fastq_md5	fastq_bytes	library_layout	library_strategy	sample_accession
+ERR2162225	ftp.sra.ebi.ac.uk/vol1/fastq/ERR216/005/ERR2162225/ERR2162225.fastq.gz	c90e5474cbe713d7c3648db6cabd6b6c	86202029	SINGLE	AMPLICON	SAMEA104335966

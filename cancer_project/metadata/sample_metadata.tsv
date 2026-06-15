@@ -1,0 +1,1 @@
+Accession(s) PRJNA397906 not valid for search requests on sample data. Supported accession types are:taxon [ ^[0-9]+$ ], sample [ ^(SAME[A]?[0-9]{6,})|(SAM[ND][0-9]{8})$ ], sample (secondary) [ ^([EDSR]RS[0-9]{6,})$ ]

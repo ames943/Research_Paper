@@ -1,0 +1,140 @@
+Samples  : 79
+Features : 2679  (CLR, before per-fold selection)
+Classes  : {'R': 49, 'NR': 30}
+Batches  : {'SRR11413': 40, 'SRR5930': 39}
+
+  SRR11413606  L1_LogReg=NR(0.02)  ElasticNet_LogReg=NR(0.06)  RandomForest=R(0.62)  actual=R
+  SRR11413607  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.81)  actual=NR
+  SRR11413608  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.68)  actual=R
+  SRR11413609  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.60)  actual=R
+  SRR11413610  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.80)  actual=NR
+  SRR11413611  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.74)  actual=NR
+  SRR11413612  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.51)  actual=R
+  SRR11413613  L1_LogReg=NR(0.30)  ElasticNet_LogReg=NR(0.46)  RandomForest=R(0.69)  actual=R
+  SRR11413614  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.54)  actual=R
+  SRR11413615  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(0.98)  RandomForest=R(0.70)  actual=NR
+  SRR11413617  L1_LogReg=NR(0.23)  ElasticNet_LogReg=R(0.51)  RandomForest=NR(0.45)  actual=R
+  SRR11413618  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.71)  actual=NR
+  SRR11413619  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=NR(0.50)  actual=R
+  SRR11413620  L1_LogReg=R(0.75)  ElasticNet_LogReg=R(0.99)  RandomForest=R(0.56)  actual=R
+  SRR11413645  L1_LogReg=R(0.99)  ElasticNet_LogReg=R(0.95)  RandomForest=R(0.57)  actual=R
+  SRR11413646  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(0.99)  RandomForest=R(0.73)  actual=NR
+  SRR11413647  L1_LogReg=R(0.98)  ElasticNet_LogReg=R(0.85)  RandomForest=R(0.76)  actual=NR
+  SRR11413648  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.02)  RandomForest=R(0.72)  actual=R
+  SRR11413649  L1_LogReg=NR(0.10)  ElasticNet_LogReg=R(0.75)  RandomForest=R(0.65)  actual=R
+  SRR11413650  L1_LogReg=NR(0.01)  ElasticNet_LogReg=NR(0.02)  RandomForest=NR(0.50)  actual=R
+  SRR11413652  L1_LogReg=R(0.58)  ElasticNet_LogReg=NR(0.30)  RandomForest=R(0.54)  actual=R
+  SRR11413653  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.01)  RandomForest=R(0.61)  actual=NR
+  SRR11413654  L1_LogReg=R(0.95)  ElasticNet_LogReg=NR(0.44)  RandomForest=R(0.74)  actual=R
+  SRR11413655  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.02)  RandomForest=R(0.59)  actual=NR
+  SRR11413656  L1_LogReg=NR(0.14)  ElasticNet_LogReg=NR(0.29)  RandomForest=R(0.69)  actual=R
+  SRR11413657  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.58)  actual=R
+  SRR11413678  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.61)  actual=R
+  SRR11413679  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(0.99)  RandomForest=NR(0.45)  actual=R
+  SRR11413680  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.56)  actual=NR
+  SRR11413681  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.68)  actual=R
+  SRR11413683  L1_LogReg=NR(0.11)  ElasticNet_LogReg=R(0.59)  RandomForest=R(0.72)  actual=R
+  SRR11413684  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(0.99)  RandomForest=R(0.60)  actual=R
+  SRR11413685  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.61)  actual=NR
+  SRR11413686  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.72)  actual=NR
+  SRR11413687  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.02)  RandomForest=R(0.59)  actual=R
+  SRR11413688  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.01)  RandomForest=R(0.62)  actual=NR
+  SRR11413689  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.63)  actual=NR
+  SRR11413690  L1_LogReg=NR(0.02)  ElasticNet_LogReg=NR(0.10)  RandomForest=R(0.63)  actual=R
+  SRR11413691  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=NR(0.48)  actual=NR
+  SRR11413692  L1_LogReg=NR(0.04)  ElasticNet_LogReg=NR(0.10)  RandomForest=R(0.55)  actual=R
+  SRR5930493  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=NR(0.44)  actual=NR
+  SRR5930494  L1_LogReg=NR(0.15)  ElasticNet_LogReg=NR(0.45)  RandomForest=R(0.69)  actual=R
+  SRR5930495  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.72)  actual=R
+  SRR5930497  L1_LogReg=NR(0.34)  ElasticNet_LogReg=NR(0.07)  RandomForest=R(0.67)  actual=R
+  SRR5930498  L1_LogReg=NR(0.16)  ElasticNet_LogReg=NR(0.11)  RandomForest=R(0.55)  actual=R
+  SRR5930499  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=NR(0.47)  actual=R
+  SRR5930501  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.67)  actual=NR
+  SRR5930502  L1_LogReg=NR(0.01)  ElasticNet_LogReg=NR(0.02)  RandomForest=NR(0.45)  actual=R
+  SRR5930503  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=NR(0.45)  actual=R
+  SRR5930504  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.78)  actual=R
+  SRR5930505  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.67)  actual=R
+  SRR5930506  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.58)  actual=R
+  SRR5930507  L1_LogReg=R(0.91)  ElasticNet_LogReg=R(0.93)  RandomForest=R(0.81)  actual=NR
+  SRR5930508  L1_LogReg=R(0.87)  ElasticNet_LogReg=R(0.85)  RandomForest=NR(0.46)  actual=NR
+  SRR5930509  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.61)  actual=NR
+  SRR5930510  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.71)  actual=NR
+  SRR5930511  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.65)  actual=R
+  SRR5930512  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.04)  RandomForest=NR(0.43)  actual=R
+  SRR5930513  L1_LogReg=R(0.99)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.56)  actual=R
+  SRR5930514  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.50)  actual=R
+  SRR5930515  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.83)  actual=NR
+  SRR5930516  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.51)  actual=R
+  SRR5930517  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.70)  actual=NR
+  SRR5930518  L1_LogReg=NR(0.16)  ElasticNet_LogReg=NR(0.33)  RandomForest=NR(0.49)  actual=NR
+  SRR5930519  L1_LogReg=NR(0.47)  ElasticNet_LogReg=NR(0.26)  RandomForest=R(0.80)  actual=NR
+  SRR5930520  L1_LogReg=NR(0.34)  ElasticNet_LogReg=NR(0.18)  RandomForest=R(0.51)  actual=NR
+  SRR5930521  L1_LogReg=NR(0.01)  ElasticNet_LogReg=NR(0.06)  RandomForest=R(0.77)  actual=NR
+  SRR5930522  L1_LogReg=R(0.97)  ElasticNet_LogReg=R(0.86)  RandomForest=R(0.65)  actual=NR
+  SRR5930523  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.70)  actual=R
+  SRR5930526  L1_LogReg=R(0.95)  ElasticNet_LogReg=R(0.86)  RandomForest=R(0.53)  actual=NR
+  SRR5930527  L1_LogReg=NR(0.40)  ElasticNet_LogReg=R(0.87)  RandomForest=R(0.70)  actual=R
+  SRR5930528  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.78)  actual=NR
+  SRR5930529  L1_LogReg=R(0.71)  ElasticNet_LogReg=R(0.75)  RandomForest=R(0.70)  actual=R
+  SRR5930530  L1_LogReg=NR(0.09)  ElasticNet_LogReg=NR(0.13)  RandomForest=R(0.54)  actual=R
+  SRR5930531  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.70)  actual=R
+  SRR5930532  L1_LogReg=NR(0.30)  ElasticNet_LogReg=NR(0.32)  RandomForest=R(0.53)  actual=R
+  SRR5930533  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=NR(0.50)  actual=R
+  SRR5930534  L1_LogReg=R(1.00)  ElasticNet_LogReg=R(1.00)  RandomForest=R(0.53)  actual=R
+  SRR5930536  L1_LogReg=NR(0.00)  ElasticNet_LogReg=NR(0.00)  RandomForest=R(0.68)  actual=R
+
+========================================================================
+LOOCV — per-fold ComBat (batch mean centering) + feature selection
+========================================================================
+Model                   Accuracy     AUC    Sens    Spec  CM (TN/FP/FN/TP)
+------------------------------------------------------------------------
+  L1_LogReg               0.3544  0.3463  0.3469  0.3667  TN=11 FP=19 FN=32 TP=17
+  ElasticNet_LogReg       0.3797  0.3507  0.3878  0.3667  TN=11 FP=19 FN=30 TP=19  <- best AUC
+  RandomForest            0.5570  0.3228  0.8163  0.1333  TN=4 FP=26 FN=9 TP=40
+
+Best linear model by AUC: ElasticNet_LogReg  (AUC=0.3507)
+
+Top-10 stable features (ElasticNet_LogReg):
+  Rank  Genus                             Folds nonzero  % nonzero   Avg coef   Dir
+  ---------------------------------------------------------------------------
+  1     Wujia                               79/79           100.0%     0.5100    R+
+  2     Klebsiella                          79/79           100.0%    -0.2147   NR+
+  3     Christensenella                     79/79           100.0%     0.1901    R+
+  4     Turicibacter                        79/79           100.0%    -0.4425   NR+
+  5     Campylobacter                       79/79           100.0%     0.2500    R+
+  6     Sellimonas                          79/79           100.0%     0.1866    R+
+  7     Porphyromonas                       79/79           100.0%    -0.4498   NR+
+  8     Lactococcus                         79/79           100.0%     0.2726    R+
+  9     Paraprevotella                      79/79           100.0%    -0.4960   NR+
+  10    Desulfovibrio                       79/79           100.0%     0.1299    R+
+
+Saved: results/ml/loocv_combat_results_<model>.tsv
+Saved: results/ml/loocv_combat_summary.tsv
+Saved: results/ml/loocv_combat_top_features.tsv
+
+Permutation test: N=100, best model=ElasticNet_LogReg, observed AUC=0.3507
+(Each permutation reruns per-fold batch correction — fully leak-free)
+
+  Perm   1/100  AUC=0.5752  elapsed=3s  ETA=278s
+  Perm  10/100  AUC=0.3524  elapsed=29s  ETA=264s
+  Perm  20/100  AUC=0.4881  elapsed=59s  ETA=236s
+  Perm  30/100  AUC=0.4476  elapsed=88s  ETA=205s
+  Perm  40/100  AUC=0.4361  elapsed=117s  ETA=176s
+  Perm  50/100  AUC=0.5548  elapsed=146s  ETA=146s
+  Perm  60/100  AUC=0.4714  elapsed=176s  ETA=117s
+  Perm  70/100  AUC=0.3184  elapsed=206s  ETA=88s
+  Perm  80/100  AUC=0.5956  elapsed=236s  ETA=59s
+  Perm  90/100  AUC=0.3653  elapsed=266s  ETA=30s
+  Perm 100/100  AUC=0.4551  elapsed=295s  ETA=0s
+
+=======================================================
+PERMUTATION TEST RESULTS (per-fold ComBat, leak-free)
+=======================================================
+Best model      : ElasticNet_LogReg
+Observed AUC    : 0.3507
+Permuted AUC    : mean=0.4948  std=0.0805
+  min=0.3184  max=0.6643
+Empirical p-val : 0.9500  (95 / 100 >= 0.3507)
+Result: NOT SIGNIFICANT at alpha=0.05
+Saved: results/ml/perm_combat_aucs.tsv
+Saved: results/ml/perm_combat_summary.tsv

@@ -1,0 +1,6 @@
+dataset	n	factor	n_groups	F_stat	p_value	n_perms	group_dispersions	dispersion_homogeneous
+n39	39	response	2	1.2658	0.3413	999	{'NR': 43.0258, 'R': 41.2268}	True
+n79	79	response	2	1.9931	0.1922	999	{'NR': 48.0282, 'R': 45.7794}	True
+n79	79	batch	2	9.5885	0.005	999	{'1': 42.4919, '2': 47.0791}	False
+n118	118	response	2	0.095	0.7788	999	{'NR': 46.4645, 'R': 46.0857}	True
+n118	118	batch	3	5.6285	0.006	999	{'1': 42.4919, '2': 47.0791, '3': 44.16}	False

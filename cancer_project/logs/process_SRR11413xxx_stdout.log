@@ -1,0 +1,90 @@
+2026-06-12 05:21:05  BATCH  [start]  manifest=metadata/download_manifest_SRR11413xxx.tsv  threads=11
+2026-06-12 05:21:05  SRR11413606  [progress]  1/40
+2026-06-12 05:21:05  SRR11413606  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413607  [progress]  2/40
+2026-06-12 05:21:05  SRR11413607  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413608  [progress]  3/40
+2026-06-12 05:21:05  SRR11413608  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413609  [progress]  4/40
+2026-06-12 05:21:05  SRR11413609  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413610  [progress]  5/40
+2026-06-12 05:21:05  SRR11413610  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413611  [progress]  6/40
+2026-06-12 05:21:05  SRR11413611  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413612  [progress]  7/40
+2026-06-12 05:21:05  SRR11413612  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413613  [progress]  8/40
+2026-06-12 05:21:05  SRR11413613  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413614  [progress]  9/40
+2026-06-12 05:21:05  SRR11413614  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413615  [progress]  10/40
+2026-06-12 05:21:05  SRR11413615  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413617  [progress]  11/40
+2026-06-12 05:21:05  SRR11413617  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413618  [progress]  12/40
+2026-06-12 05:21:05  SRR11413618  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413619  [progress]  13/40
+2026-06-12 05:21:05  SRR11413619  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413620  [progress]  14/40
+2026-06-12 05:21:05  SRR11413620  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413645  [progress]  15/40
+2026-06-12 05:21:05  SRR11413645  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413646  [progress]  16/40
+2026-06-12 05:21:05  SRR11413646  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413647  [progress]  17/40
+2026-06-12 05:21:05  SRR11413647  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413648  [progress]  18/40
+2026-06-12 05:21:05  SRR11413648  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413649  [progress]  19/40
+2026-06-12 05:21:05  SRR11413649  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413650  [progress]  20/40
+2026-06-12 05:21:05  SRR11413650  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413652  [progress]  21/40
+2026-06-12 05:21:05  SRR11413652  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413653  [progress]  22/40
+2026-06-12 05:21:05  SRR11413653  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413654  [progress]  23/40
+2026-06-12 05:21:05  SRR11413654  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413655  [progress]  24/40
+2026-06-12 05:21:05  SRR11413655  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413656  [progress]  25/40
+2026-06-12 05:21:05  SRR11413656  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413657  [progress]  26/40
+2026-06-12 05:21:05  SRR11413657  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413678  [progress]  27/40
+2026-06-12 05:21:05  SRR11413678  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413679  [progress]  28/40
+2026-06-12 05:21:05  SRR11413679  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413680  [progress]  29/40
+2026-06-12 05:21:05  SRR11413680  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413681  [progress]  30/40
+2026-06-12 05:21:05  SRR11413681  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413683  [progress]  31/40
+2026-06-12 05:21:05  SRR11413683  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413684  [progress]  32/40
+2026-06-12 05:21:05  SRR11413684  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413685  [progress]  33/40
+2026-06-12 05:21:05  SRR11413685  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413686  [progress]  34/40
+2026-06-12 05:21:05  SRR11413686  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413687  [progress]  35/40
+2026-06-12 05:21:05  SRR11413687  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413688  [progress]  36/40
+2026-06-12 05:21:05  SRR11413688  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413689  [progress]  37/40
+2026-06-12 05:21:05  SRR11413689  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413690  [progress]  38/40
+2026-06-12 05:21:05  SRR11413690  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413691  [progress]  39/40
+2026-06-12 05:21:05  SRR11413691  [skip]  Kraken2 report already exists
+2026-06-12 05:21:05  SRR11413692  [progress]  40/40
+2026-06-12 05:21:05  SRR11413692  [download]  R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/092/SRR11413692/SRR11413692_1.fastq.gz
+2026-06-12 05:22:48  SRR11413692  [download]  R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR114/092/SRR11413692/SRR11413692_2.fastq.gz
+2026-06-12 05:24:32  SRR11413692  [download]  DONE
+2026-06-12 05:24:46  SRR11413692  [verify]  gzip OK
+2026-06-12 05:24:46  SRR11413692  [fastp]  START  fastp -i raw_data/SRR11413692_1.fastq.gz -I raw_data/SRR11413692_2.fastq.gz -o results/trimmed/SRR11413692_1.trimmed.fastq.gz -O results/trimmed/SRR11413692_2.trimmed.fastq.gz -h results/fastp/SRR11413692_fastp.html -j results/fastp/SRR11413692_fastp.json --thread 11
+2026-06-12 05:25:55  SRR11413692  [fastp]  OK (rc=0)
+2026-06-12 05:25:56  SRR11413692  [kraken2]  START  kraken2 --db . --threads 11 --paired --report results/kraken_reports/SRR11413692_report.txt --output results/kraken_outputs/SRR11413692_output.txt results/trimmed/SRR11413692_1.trimmed.fastq.gz results/trimmed/SRR11413692_2.trimmed.fastq.gz
+2026-06-12 05:32:02  SRR11413692  [kraken2]  OK (rc=0)
+2026-06-12 05:32:02  SRR11413692  [done]  sample complete, files cleaned
+2026-06-12 05:32:02  BATCH  [done]  total=40  success=40  failed=0  failed_ids=none
