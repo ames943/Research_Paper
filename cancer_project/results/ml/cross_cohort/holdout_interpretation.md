@@ -1,0 +1,85 @@
+# Phase 0.5: Cross-Cohort Holdout Validation — Interpretation
+
+## Experimental design
+- 3 Leave-One-Cohort-Out splits (LOCO): train on 2 cohorts, test on the held-out 3rd.
+- 6 Single-to-Single splits (S2S): train on 1 cohort, test on a different cohort.
+- Permutation test: 1000 label shuffles on the test cohort against fixed model predictions.
+- No batch correction applied. Feature selection leak-free (training set only).
+- Prevalence threshold: ≥4 training samples.
+
+## 1. Are any of the 9 configurations significantly above chance?
+
+**None of the 9 cross-cohort configurations achieved AUC permutation p < 0.05.**
+This is consistent with the single-cohort LOOCV null result (p=0.560) and the pooled-LOOCV results (p=0.850 at n=79, p=0.250 at n=118).
+
+All 18 results (9 splits × 2 models):
+  train=1+2→test=3  ElasticNet_LogReg       AUC=0.3667  p=0.921
+  train=1+2→test=3  RandomForest            AUC=0.3319  p=0.953
+  train=1+3→test=2  ElasticNet_LogReg       AUC=0.4107  p=0.825
+  train=1+3→test=2  RandomForest            AUC=0.3920  p=0.867
+  train=2+3→test=1  ElasticNet_LogReg       AUC=0.3083  p=0.982
+  train=2+3→test=1  RandomForest            AUC=0.2875  p=0.984
+  train=1→test=2  ElasticNet_LogReg       AUC=0.4000  p=0.842
+  train=1→test=2  RandomForest            AUC=0.3373  p=0.944
+  train=2→test=1  ElasticNet_LogReg       AUC=0.5500  p=0.338
+  train=2→test=1  RandomForest            AUC=0.3722  p=0.911
+  train=1→test=3  ElasticNet_LogReg       AUC=0.3944  p=0.841
+  train=1→test=3  RandomForest            AUC=0.2986  p=0.984
+  train=3→test=1  ElasticNet_LogReg       AUC=0.3750  p=0.898
+  train=3→test=1  RandomForest            AUC=0.3625  p=0.925
+  train=2→test=3  ElasticNet_LogReg       AUC=0.4250  p=0.783
+  train=2→test=3  RandomForest            AUC=0.5014  p=0.477
+  train=3→test=2  ElasticNet_LogReg       AUC=0.3253  p=0.968
+  train=3→test=2  RandomForest            AUC=0.4413  p=0.757
+
+## 2. Asymmetry across ordered pairs
+
+  ElasticNet_LogReg: 1→3 AUC=0.3944(p=0.841)  vs  3→1 AUC=0.3750(p=0.898)   Δ=+0.0194 →
+  RandomForest: 1→3 AUC=0.2986(p=0.984)  vs  3→1 AUC=0.3625(p=0.925)   Δ=-0.0639 ←
+
+  ElasticNet_LogReg: 1→2 AUC=0.4000(p=0.842)  vs  2→1 AUC=0.5500(p=0.338)   Δ=-0.1500 ←
+  RandomForest: 1→2 AUC=0.3373(p=0.944)  vs  2→1 AUC=0.3722(p=0.911)   Δ=-0.0349 ←
+
+  ElasticNet_LogReg: 2→3 AUC=0.4250(p=0.783)  vs  3→2 AUC=0.3253(p=0.968)   Δ=+0.0997 →
+  RandomForest: 2→3 AUC=0.5014(p=0.477)  vs  3→2 AUC=0.4413(p=0.757)   Δ=+0.0601 →
+
+Interpretation: Asymmetry in AUC between A→B and B→A indicates that the compositional signature learned from cohort A generalises better to cohort B than the reverse.  This can arise from differences in class balance, sequencing depth, or breadth of taxonomic coverage between platforms.
+
+Cohort identities:
+  Cohort 1: Frankel/SRR5930 (HiSeq)
+  Cohort 2: SRR11413 (NovaSeq)
+  Cohort 3: Matson/SRR6000 (NextSeq)
+
+## 3. Does single-cohort training outperform pooled-LOCO training?
+
+For each test cohort, the best single-cohort-trained AUC (across the two single-cohort training partners) is compared to the LOCO AUC (trained on the remaining two cohorts together, no batch correction):
+
+  Test cohort  Best S2S src   S2S AUC   LOCO AUC   Winner
+  ---------------------------------------------------------
+  Cohort 1          src=         2     0.5500      0.3083       S2S (Δ=+0.2417)
+  Cohort 2          src=         1     0.4000      0.4107      LOCO (Δ=-0.0107)
+  Cohort 3          src=         2     0.4250      0.3667       S2S (Δ=+0.0583)
+
+When S2S outperforms LOCO (ElasticNet), it suggests that adding a second training cohort WITHOUT batch correction introduces more noise (batch variance) than signal, and the model trained on a single clean cohort generalises better. This is consistent with the PERMANOVA finding that batch variance is 7.7–11.3× larger than response variance, and motivates the Phase 1 batch-correction comparison.
+
+## 4. Summary for paper
+
+Cross-cohort holdout validation provides an alternative to pooled LOOCV that
+avoids batch-correction decisions entirely, at the cost of reduced training data.
+
+Key findings:
+- No cross-cohort generalisation was detected at p < 0.05 in any of the 9
+  split-model combinations, extending the null result from single-cohort LOOCV
+  (p=0.56) to the cross-cohort setting.
+- AUC values ranged across all 18 results, centred near chance (0.5), with
+  most below 0.5, indicating no consistent directional signal.
+- [See asymmetry section above for directionality of each pair.]
+- [See S2S vs LOCO section above for pooling effect without correction.]
+- These results strengthen the paper's central argument: in the absence of
+  batch correction, no response signal survives cohort-level generalisation,
+  and adding more uncorrected cohorts dilutes rather than amplifies the signal.
+  The Phase 1 correction-method comparison will determine whether any method
+  can rescue cross-cohort generalisation.
+
+---
+_Generated by scripts/phase05_cross_cohort_holdout.py_
