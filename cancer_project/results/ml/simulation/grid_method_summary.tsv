@@ -1,0 +1,7 @@
+method	mean_delta_auc	std_delta_auc	min_delta_auc	max_delta_auc	frac_helps	frac_hurts
+none	-0.0065	0.0475	-0.17	0.175	0.286	0.359
+mean_centering	-0.0001	0.0445	-0.21	0.1	0.292	0.323
+location_scale	-0.0051	0.0486	-0.1743	0.175	0.302	0.396
+quantile_mapping	0.0181	0.0588	-0.155	0.1944	0.474	0.234
+percentile_norm	0.1899	0.2189	-0.0962	0.5059	0.677	0.208
+cohort_covariate	-0.0048	0.0482	-0.1262	0.135	0.312	0.354
