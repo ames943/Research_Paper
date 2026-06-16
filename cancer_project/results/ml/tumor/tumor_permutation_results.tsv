@@ -1,0 +1,2 @@
+model	eval	observed_auc	null_mean	null_std	p_value	N_perm
+XGBoost	LOOCV	0.44816709292412615	0.4890311167945438	0.054252393203722916	0.745	200

@@ -1,0 +1,19 @@
+Running PERMANOVA — batch (study) effect …
+  Batch (study): R2=0.1427, p=0.0000, F=18.315
+Running PERMANOVA — response effect …
+  Response:      R2=0.0120, p=0.0010, F=2.684
+  Batch:Signal ratio: 11.9x
+
+TMB distribution by study:
+  hugo2016: median=13.08, mean=17.89, range=[2.8, 108.1], n=37
+  liu2019: median=6.47, mean=15.72, range=[0.2, 253.4], n=144
+  riaz2017: median=4.66, mean=7.46, range=[0.1, 67.4], n=42
+
+Top gene frequency by study (batch effect check):
+  mut_BRAF: hugo2016=0.32, liu2019=0.38, riaz2017=0.33
+  mut_NRAS: hugo2016=0.24, liu2019=0.30, riaz2017=0.29
+  mut_NF1: hugo2016=0.19, liu2019=0.17, riaz2017=0.05
+  mut_TP53: hugo2016=0.19, liu2019=0.12, riaz2017=0.10
+  mut_PTEN: hugo2016=0.05, liu2019=0.08, riaz2017=0.07
+
+DONE

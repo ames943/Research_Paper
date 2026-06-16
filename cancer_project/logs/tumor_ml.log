@@ -25,3 +25,18 @@ Studies: {'liu2019': np.int64(144), 'riaz2017': np.int64(42), 'hugo2016': np.int
   Observed XGBoost LOOCV AUC: 0.4482
   20/200 perms done  null_mean=0.5069  p_so_far=0.900  ETA=46.7min
   40/200 perms done  null_mean=0.5017  p_so_far=0.800  ETA=41.2min
+  60/200 perms done  null_mean=0.4921  p_so_far=0.750  ETA=36.2min
+  80/200 perms done  null_mean=0.4915  p_so_far=0.762  ETA=30.5min
+  100/200 perms done  null_mean=0.4962  p_so_far=0.770  ETA=25.2min
+  120/200 perms done  null_mean=0.4964  p_so_far=0.783  ETA=19.7min
+  140/200 perms done  null_mean=0.4925  p_so_far=0.764  ETA=14.3min
+  160/200 perms done  null_mean=0.4913  p_so_far=0.756  ETA=9.3min
+  180/200 perms done  null_mean=0.4900  p_so_far=0.744  ETA=4.7min
+  200/200 perms done  null_mean=0.4890  p_so_far=0.745  ETA=0.0min
+
+Observed AUC:       0.4482
+Null mean ± std:    0.4890 ± 0.0543
+Permutation p-value: 0.7450  (N=200)
+Total permutation time: 45.7 min
+
+DONE - results saved to results/ml/tumor/

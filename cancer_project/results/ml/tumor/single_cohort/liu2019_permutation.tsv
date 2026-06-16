@@ -1,0 +1,2 @@
+model	observed_auc	null_mean	null_std	p_value
+ElasticNet	0.5125638406537283	0.4644012257405516	0.08441599934484836	0.29

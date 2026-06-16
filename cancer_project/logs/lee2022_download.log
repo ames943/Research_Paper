@@ -1,0 +1,6 @@
+2026-06-16 02:57:00  === Lee 2022 pipeline START  (PROJECT_ROOT=/Users/ameygarg/cancer_project/cancer_project) ===
+2026-06-16 02:57:00  Threads: 11 | DB: . (/Users/ameygarg/cancer_project/cancer_project) | Reports: results/kraken_reports/lee2022
+2026-06-16 02:57:00  Manifest: 165 samples to process
+2026-06-16 02:57:00  [ERR6229432] (1/165) START
+2026-06-16 02:57:00    [ERR6229432] download R1 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR622/002/ERR6229432/ERR6229432_1.fastq.gz
+2026-06-16 03:00:14    [ERR6229432] download R2 <- https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR622/002/ERR6229432/ERR6229432_2.fastq.gz

@@ -1,0 +1,51 @@
+=== LIU 2019 (n=144) ===
+  144 patients  R=55  NR=89
+
+--- LOOCV Liu 2019 ---
+  ElasticNet: AUC=0.5126  (0s)
+  RandomForest: AUC=0.4105  (43s)
+  XGBoost: AUC=0.4018  (10s)
+
+--- Permutation test (ElasticNet, N=500) ---
+  50/500  null_mean=0.4707  p_so_far=0.320  ETA=3.0min
+  100/500  null_mean=0.4648  p_so_far=0.310  ETA=2.7min
+  150/500  null_mean=0.4631  p_so_far=0.287  ETA=2.3min
+  200/500  null_mean=0.4607  p_so_far=0.280  ETA=2.0min
+  250/500  null_mean=0.4665  p_so_far=0.312  ETA=1.7min
+  300/500  null_mean=0.4647  p_so_far=0.307  ETA=1.3min
+  350/500  null_mean=0.4614  p_so_far=0.291  ETA=1.0min
+  400/500  null_mean=0.4637  p_so_far=0.292  ETA=0.7min
+  450/500  null_mean=0.4661  p_so_far=0.300  ETA=0.3min
+  500/500  null_mean=0.4644  p_so_far=0.290  ETA=0.0min
+
+Observed AUC (ElasticNet): 0.5126
+Null mean ± std: 0.4644 ± 0.0844
+Permutation p-value: 0.2900  (N=500)
+
+--- Top features (XGBoost, full Liu 2019) ---
+  mut_RAC1: 0.0484
+  mut_DNAH5: 0.0419
+  mut_OBSCN: 0.0393
+  mut_ADGRV1: 0.0353
+  mut_NEB: 0.0345
+  mut_PKHD1L1: 0.0327
+  mut_CSMD2: 0.0306
+  mut_FAT4: 0.0303
+  mut_MAP2K1: 0.0293
+  mut_KIT: 0.0290
+
+=== Riaz 2017 ===
+  42 patients  R=10  NR=32
+--- LOOCV ---
+  ElasticNet: AUC=0.5719  (0s)
+  RandomForest: AUC=0.4797  (11s)
+  XGBoost: AUC=0.4938  (1s)
+
+=== Hugo 2016 ===
+  37 patients  R=20  NR=17
+--- LOOCV ---
+  ElasticNet: AUC=0.2118  (0s)
+  RandomForest: AUC=0.3294  (10s)
+  XGBoost: AUC=0.3412  (1s)
+
+DONE
