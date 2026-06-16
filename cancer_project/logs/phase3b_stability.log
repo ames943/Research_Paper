@@ -1,0 +1,37 @@
+[17:29:01] Loading data …
+  n=118, features=2813
+
+[17:29:01] LOOCV coef collection — n39 (n=39) …
+    fold   1/39  sel=59
+    fold  20/39  sel=58
+    fold  39/39  sel=59
+  → results/ml/feature_stability/feature_stability_n39.tsv  |  FDR-significant genera: 43
+
+[17:29:03] LOOCV coef collection — n79 (n=79) …
+    fold   1/79  sel=61
+    fold  20/79  sel=61
+    fold  40/79  sel=60
+    fold  60/79  sel=61
+    fold  79/79  sel=61
+  → results/ml/feature_stability/feature_stability_n79.tsv  |  FDR-significant genera: 59
+
+[17:29:07] LOOCV coef collection — n118 (n=118) …
+    fold   1/118  sel=59
+    fold  20/118  sel=59
+    fold  40/118  sel=59
+    fold  60/118  sel=59
+    fold  80/118  sel=59
+    fold 100/118  sel=59
+    fold 118/118  sel=59
+  → results/ml/feature_stability/feature_stability_n118.tsv  |  FDR-significant genera: 58
+
+[17:29:12] Cross-cohort EN full-cohort fits …
+  cohort1: n=39, 59 features selected, 43 nonzero after EN
+  cohort2: n=40, 64 features selected, 53 nonzero after EN
+  cohort3: n=39, 55 features selected, 50 nonzero after EN
+  Cross-cohort genera (nz in ≥2): 48
+  Sign-consistent (same direction in all cohorts): 17
+  Sign-inverted   (opposite direction in ≥1 cohort): 31
+
+[17:29:12] Phase 3b complete. Outputs in results/ml/feature_stability/
+ALL DONE

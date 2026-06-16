@@ -1,0 +1,29 @@
+
+[17:28:47] Parsing Kraken2 reports at species (rank=S) …
+  Samples parsed: 118, species: 7995
+  Saved: results/ml/taxonomic_sensitivity/X_species_raw.tsv, results/ml/taxonomic_sensitivity/X_species_clr.tsv  (n=118)
+  Computing Aitchison distances (n=118, 7995 species) …
+  PERMANOVA — batch (999 perms) …
+    R²=0.0741  p=0.0000  F=4.5995
+  PERMANOVA — response (999 perms) …
+    R²=0.0080  p=0.5485  F=0.9404
+
+[17:28:49] Parsing Kraken2 reports at phylum (rank=P) …
+  Samples parsed: 118, phylum: 75
+  Saved: results/ml/taxonomic_sensitivity/X_phylum_raw.tsv, results/ml/taxonomic_sensitivity/X_phylum_clr.tsv  (n=118)
+  Computing Aitchison distances (n=118, 75 phylum) …
+  PERMANOVA — batch (999 perms) …
+    R²=0.0588  p=0.0000  F=3.5929
+  PERMANOVA — response (999 perms) …
+    R²=0.0070  p=0.6006  F=0.8228
+
+Saved: results/ml/taxonomic_sensitivity/permanova_by_level.tsv
+
+[17:28:50] Phase 3c complete. Outputs in results/ml/taxonomic_sensitivity/
+  level   factor  n_taxa     R2  p_value ratio_to_response
+  genus    batch    2813 0.0768   0.0010              11.3
+  genus response    2813 0.0068   0.8470              11.3
+species    batch    7995 0.0741   0.0000               9.3
+species response    7995 0.0080   0.5485               9.3
+ phylum    batch      75 0.0588   0.0000               8.4
+ phylum response      75 0.0070   0.6006               8.4

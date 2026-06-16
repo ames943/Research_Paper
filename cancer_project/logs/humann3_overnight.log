@@ -1,0 +1,14 @@
+[2026-06-15 16:19:15] ================================================================
+[2026-06-15 16:19:15] HUMAnN3 Pipeline — Cohort 1 (PRJNA397906)
+[2026-06-15 16:19:15] Threads: 10 | DB: /Users/ameygarg/humann3_dbs | Out: /Users/ameygarg/cancer_project/cancer_project/results/ml/humann3
+[2026-06-15 16:19:15] ================================================================
+[2026-06-15 16:19:15] Disk available: 252Gi free
+[2026-06-15 16:19:16] Conda conda 25.5.1
+[2026-06-15 16:19:16] Conda env 'humann3' already exists.
+[2026-06-15 16:19:19] humann: humann v3.9
+[2026-06-15 16:19:19] metaphlan: MetaPhlAn version 4.2.4 (21 Oct 2025)
+[2026-06-15 16:19:19] Downloading ChocoPhlAn full (~15 GB)...
+Creating subdirectory to install database: /Users/ameygarg/humann3_dbs/chocophlan
+Download URL: http://huttenhower.sph.harvard.edu/humann_data/chocophlan/full_chocophlan.v201901_v31.tar.gz
+CRITICAL ERROR: Unable to download and extract from URL: http://huttenhower.sph.harvard.edu/humann_data/chocophlan/full_chocophlan.v201901_v31.tar.gz
+[2026-06-15 16:20:35] FATAL: ChocoPhlAn download failed

@@ -1,0 +1,4 @@
+model	observed_auc	perm_auc_mean	perm_auc_std	perm_auc_min	perm_auc_max	n_perm_gte_obs	n_perms	empirical_pval	xgb_grid_used	cons_en_C	cons_en_l1	cons_rf_n_est	cons_rf_depth	cons_xgb_n_est	cons_xgb_depth	cons_xgb_lr
+ElasticNet	0.338	0.4818	0.0686	0.318	0.6305	99	100	0.99	full	100.0	0.3	200	5	100	2	0.05
+RandomForest	0.5475	0.4831	0.0735	0.2992	0.6131	24	100	0.24	full	100.0	0.3	200	5	100	2	0.05
+XGBoost	0.6169	0.4931	0.095	0.2734	0.6768	10	100	0.1	full	100.0	0.3	200	5	100	2	0.05
