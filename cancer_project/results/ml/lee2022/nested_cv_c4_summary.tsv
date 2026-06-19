@@ -1,0 +1,4 @@
+model	roc_auc	accuracy	sensitivity	specificity	TP	FP	TN	FN
+ElasticNet	0.5695	0.5576	0.4844	0.604	31	40	61	33
+RandomForest	0.4783	0.5394	0.1094	0.8119	7	19	82	57
+XGBoost	0.546	0.5879	0.3906	0.7129	25	29	72	39
